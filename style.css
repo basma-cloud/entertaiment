@@ -178,7 +178,7 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
 	height25vh;
 }
 .services-section {
-	height:5em;
+	height:10em;
 	background-color: white;
 	width: 99vw;
 	display:flex;
@@ -194,8 +194,42 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
 .services-section .title{
 	position: absolute;
 	margin-top 5em;
+
+}
+.services-section-continue{
+	position: relative;
+	height:11rem;
+	width: 99vw;
+	background-color: #222327;
+	justify-content center;
+	display: grid;
+	grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
+	grid-gap:1rem;
+	row-gap: 40px;
+	column-gap: 40px;
+	justify-items: center;
+	justify-content :space-around;
+	
+}
+.services-section-continue .card{
+	position relative;
+	align-self flex-end;
+	height:22rem;
+	width:18rem;
+	background-color: #FCFCFC;
+	margin-top: -12rem;
+	margin-bottom: 11rem;
+	box-shadow:10px -5px 20px rgba(14, 14, 14, 0.05),
+	0 -5px 10px rgba(168, 168, 168, .05)
+	;
 }
 
+.services-section-continue .management{
+	background-color#FE5D26 ;
+}
+.our-work{
+	height: 100vh;
+}
 @media only screen and (max-width: 800px) {
 	.about-section p {
 		width 80vw;
@@ -218,3 +252,4 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
 		height:75vh;
 	}
 }
+
