@@ -6,7 +6,7 @@ $(document).ready(function(){
     
         $('#nav-container').toggleClass("pushed");
         var div = $("#main-menu-container");
-         div.stop(true,false).animate({width:"toggle"},750);
+         div.stop(true,false).animate({width:"toggle"},850);
       
          
         $("#home").stop(true,false).animate({fontSize:'60px'},400).animate({fontSize:'50px'},400);
