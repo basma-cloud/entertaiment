@@ -117,7 +117,8 @@ body{
 }
 #main-menu-container{
     position fixed;
-    display: none;
+	display: none;
+	width:100%;
     margin-top 2.5cm;
     margin-left 1cm;
     margin-right-50px;
@@ -156,7 +157,7 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
 }
 .about-section{
 	height: 50vh;
-	width: 98.5vw;
+	width: 97.5vw;
 	align-self center;
 	background-color: #ffffff;
 	display: flex;
