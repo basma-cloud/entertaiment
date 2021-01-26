@@ -212,7 +212,7 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
 	
 }
 .services-section-continue .card{
-	position relative;
+	position: relative;
 	align-self flex-end;
 	height:22rem;
 	width:18rem;
@@ -228,8 +228,97 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
 	background-color#FE5D26 ;
 }
 .our-work{
-	height: 100vh;
+	position: relative;
+	height: 50rem;
+	width: 80vw;
+	display:flex;
+	flex-direction:column;
+	margin-left:10vw;
+	justify-contentcenter;	
+	align-items: center;
+	padding-top:3.5rem;
+	background-coloraqua;
+	
 }
+.our-work .title{
+	color:white;
+	font-size: 30px;
+	margin-bottom: 2rem;
+	justify-self center;
+	displayflex;
+	flex-directioncolumn;
+}
+.picture-class{
+	width: 100%;
+	display: flex;
+    margin-left:1rem;
+}
+.picture-class .text{
+	font-size: 20px;
+	width:40%;
+	margin-left: 1.5rem;
+	color:white;
+	display flex;
+	flex-direction column;
+	font-family:sans-serif;
+	margin-top: -2rem;
+}
+.picture-class .title{
+    height :5%;
+	font-family:sans-serif;
+}
+.picture-class .subtitle{
+	
+}
+
+.picture1{
+	margin-left: 1rem;
+	width:100%;
+	display: flex;
+	flex-direction: row;
+
+}
+.picture1 .text {
+	font-size: 20px;
+	width:40%;
+	margin-left: 1.5rem;
+	color:white;
+	display flex;
+	flex-direction column;
+	font-family:sans-serif;
+	margin-top: -2rem;
+}
+.picture1 .title {
+	display flex;
+	flex-direction column;
+    margin-bottom 2rem;
+	height :5%;
+	font-family:sans-serif;
+
+}
+.picture1 .subtitle{
+	height1%;
+	margin-top: -2rem;
+	font-size: 22px;
+	font-family:sans-serif;
+    color:rgb(241, 241, 241);
+}
+.picture1 p{
+	margin-top 3rem;
+}
+.picture2{
+	display: flex;
+	flex-direction:row-reverse;
+	margin-top: 3rem;
+	margin1rem;
+}
+.picture2 .text{
+	text-align:right;
+}
+.picture2 img{
+	margin-left:2rem;
+}
+
 @media only screen and (max-width: 800px) {
 	.about-section p {
 		width 80vw;
@@ -243,6 +332,16 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
 	.about-section p {
 		width :80vw;
 	}
+	.our-work{
+		margin-top:24rem ;
+	}
+	picture1{
+		flex-direction:column;
+		margin-left: 0rem;
+	}
+	.text{
+		width:100%;
+	}
   }
 @media only screen and (max-width: 600px) {
 	.about-section p {
@@ -250,6 +349,35 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
 	}
 	.about-section{
 		height:75vh;
+	}
+	.our-work{
+		margin-top:45rem ;
+	}
+	.picture1{
+		flex-direction:column;
+		margin-left: 0rem;
+	}
+	.picture1 img{
+		justify-self: center;
+		width:100%;
+	}
+	.picture1 .text{
+		width:85vw;
+		margin-top: 1rem;
+	}
+	.picture-class .title{
+		margin-bottom: .3rem;
+	}
+	.picture-class p{
+		margin-top:-1.4rem ;
+	}
+}
+@media only screen and (max-width: 800){
+	.equipment{
+		margin-left60px;
+	}
+	.our-work{
+		margin-top:50rem ;
 	}
 }
 
