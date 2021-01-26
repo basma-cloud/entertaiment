@@ -165,7 +165,7 @@ video{
 	margin-left -2rem;
 	opacity:.2;*/
 	displayblock;
-	position:absolute;
+	position: absolute;
 	bottom: 0;
 	left: 0;
 	width:98vw;
@@ -173,7 +173,7 @@ video{
 	overflowhidden;
 	z-index:-1;
 	opacity: .2;
-	transform :translateY(-100rem);
+	transform :translateY(-190rem);
 	transformtranslateX(-180rem);
 	margin-top -100rem;
 	align-self flex-start ;
@@ -269,7 +269,7 @@ cover{
 }
 .our-work{
 	position: relative;
-	height: 50rem;
+	height: 102rem;
 	width: 80vw;
 	display:flex;
 	flex-direction:column;
@@ -294,7 +294,7 @@ picture-class{
     margin-left:1rem;
 }
 .picture-class .text{
-	font-size: 15px;
+	font-size 15px;
 	width:40%;
 	margin-left: 1.5rem;
 	color:white;
@@ -303,12 +303,20 @@ picture-class{
 	font-family:sans-serif;
 	margin-top: -2rem;
 }
-.picture-class .title{
+.picture-class .main-title{
     height :5%;
 	font-family:sans-serif;
 }
+.picture-class p{
+   font-size: 15px;
+   margin-top: -.5rem
+   ;
+}
 .picture-class .subtitle{
-	
+  font-size:18px;
+  color: #d6d6d6;
+  margin-top: -.6rem;
+  margi
 }
 
 .picture1{
@@ -336,10 +344,10 @@ picture-class{
 	font-family:sans-serif;
 
 }
-.picture1 .subtitle{
+picture1 .subtitle{
 	height1%;
 	margin-top: -2rem;
-	font-size: 22px;
+	font-size 22px;
 	font-family:sans-serif;
     color:rgb(241, 241, 241);
 }
@@ -370,7 +378,7 @@ picture-class{
 	height :5%;
 	font-family:sans-serif;
 }
-.picture2 .subtitle{
+picture2 .subtitle{
 	margin-top: -2rem;
 	font-size: 22px;
 	font-family:sans-serif;
@@ -378,6 +386,76 @@ picture-class{
 }
 .picture2 img{
 	margin-left:2rem;
+}
+
+.picture3{
+display:flex;
+flex-direction:row;
+margin-top: 4rem;
+}
+
+.picture3 .text {
+	font-size: 15px;
+	width:40%;
+	margin-left: 1.5rem;
+	color:white;
+	display flex;
+	flex-direction column;
+	font-family:sans-serif;
+	margin-top: -2rem;
+}
+.picture3 .title {
+	display flex;
+	flex-direction column;
+    margin-bottom 2rem;
+	height :5%;
+	font-family:sans-serif;
+
+}
+picture3 .subtitle{
+	height1%;
+	margin-top: -2rem;
+	font-size: 22px;
+	font-family:sans-serif;
+    color:rgb(241, 241, 241);
+}
+.picture4{
+	display:flex;
+	flex-direction: row-reverse;
+	margin-top: 4rem;
+}
+.picture4 .text{
+	text-align:right;
+	font-size: 20px;
+	width:40%;
+	margin-left: 1.5rem;
+	color:white;
+	display flex;
+	flex-direction column;
+	font-family:sans-serif;
+	margin-top: -2rem;
+}
+
+.picture4 .title{
+	height :5%;
+	font-family:sans-serif;
+}
+picture4 .subtitle{
+	margin-top: -2rem;
+	font-size: 22px;
+	font-family:sans-serif;
+    color:rgb(241, 241, 241);
+}
+.picture4 img{
+	margin-left:2rem;
+}
+.contact-section{
+	position :relative;
+	dispay:flex;
+	width:99vw;
+	height:35rem;
+	z-index:1px;
+	background-color:white;
 }
 
 @media only screen and (max-width: 800px) {
@@ -446,6 +524,31 @@ picture-class{
 		width: 100%;
 		margin-left:0rem;
 	}
+	.picture3{
+		flex-direction: column;
+	}
+	.picture3 img{
+		width:100%;
+
+	}
+	.picture3 .text{
+		width:85vw;
+		margin-top: 1rem;
+		margin-left: 0rem;
+	}
+	.picture4{
+		flex-direction:column;
+	}
+	.picture4 .text{
+		text-align: left;
+		margin-left:0;
+		width:85vw;
+		margin-top: 1rem;
+	}
+	.picture4 img{
+		width: 100%;
+		margin-left:0rem;
+	}
 	video{
 		
 		min-width :100vw;
@@ -453,11 +556,14 @@ picture-class{
 		left-63rem;
 		overflow:visible;
 		object-fit contain;
-		transform :translateY(-160rem);
+		transform :translateY(-300rem);
 	}
 	cover{
 		width100vw;
 		height100vh;
+	}
+	.contact-section{
+		margin-top: 50rem;
 	}
 }
 @media only screen and (max-width: 800){
