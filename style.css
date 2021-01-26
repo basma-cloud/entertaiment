@@ -164,15 +164,21 @@ video{
 	min-height:100vh ;
 	margin-left -2rem;
 	opacity:.2;*/
-	display: block;
-	position: absolute;
+	displayblock;
+	position:absolute;
 	bottom: 0;
 	left: 0;
-	width: 100%;
+	width:98vw;
 	height: 100%;
-	overflow: hidden;
-	z-index:-3;
+	overflow hidden;
+	z-index:-1;
 	opacity: .2;
+	transform :translateY(-52rem);
+	transformtranslateX(-180rem);
+	margin-top -100rem;
+	align-self flex-start ;
+	margin-right -40px;
+	scale-10;
 	/*min-width: 100%;
     min-height: 100%;
     position: absolute;
@@ -181,10 +187,11 @@ video{
 	transform: translate(-50%, -50%);*/
 	
 }
-.cover{
-	position: absolute;
+cover{
+	position:absolute;
+	position relative;
 	height: 100vh;
-	width:100vw;
+	width:100%;
 	margin-left 2.5vw;
 }
 .about-section{
