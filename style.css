@@ -268,44 +268,19 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
 	font-family:sans-serif;
 }
 .picture-class .subtitle{
-	
-}
-
-.picture1{
-	margin-left: 1rem;
-	width:100%;
-	display: flex;
-	flex-direction: row;
-
-}
-.picture1 .text {
-	font-size: 20px;
-	width:40%;
-	margin-left: 1.5rem;
-	color:white;
-	display flex;
-	flex-direction column;
-	font-family:sans-serif;
-	margin-top: -2rem;
-}
-.picture1 .title {
-	display flex;
-	flex-direction column;
-    margin-bottom 2rem;
-	height :5%;
-	font-family:sans-serif;
-
-}
-.picture1 .subtitle{
-	height1%;
 	margin-top: -2rem;
 	font-size: 22px;
 	font-family:sans-serif;
     color:rgb(241, 241, 241);
 }
-.picture1 p{
-	margin-top 3rem;
+.picture-class p{
+	color:rgb(224, 224, 224);
 }
+.picture1{	
+	display: flex;
+	flex-direction: row;
+}
+
 .picture2{
 	display: flex;
 	flex-direction:row-reverse;
@@ -357,11 +332,12 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
 		flex-direction:column;
 		margin-left: 0rem;
 	}
-	.picture1 img{
+	.picture-class img{
 		justify-self: center;
 		width:100%;
+		margin 0 0 1rem 1rem;
 	}
-	.picture1 .text{
+	.picture-class .text{
 		width:85vw;
 		margin-top: 1rem;
 	}
@@ -370,6 +346,10 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
 	}
 	.picture-class p{
 		margin-top:-1.4rem ;
+		margin -1.4 0 1rem 1rem;
+	}
+	.picture2{
+		flex-direction: column;
 	}
 }
 @media only screen and (max-width: 800){
