@@ -7,6 +7,19 @@ body{
 	display:flex ;
 	flex-direction:column;
 }
+header{
+	position: relative;
+	display: flex;
+	justify-content center;
+	height: 7vh;
+	width:98vw;
+}
+.zan-logo{
+	width10rem;
+	height5rem;
+	margin-left:1.6rem;
+	margin-top: 1.3rem;
+}
 #nav-container{
 	position:relative;
 	top:7vh;
@@ -142,9 +155,11 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
 }
 #main-menu ul{
 	font-size:50px; 
+	font-weight: 900;
+	color: rgb(51, 0, 14);
 	list-style:none; 
 	text-align:center;
-	font-family:sans-serif;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
 	color rgb(252, 240, 240);
 }
 .welcome-section{
@@ -172,8 +187,8 @@ video{
 	height: 50rem;
 	overflowhidden;
 	z-index:-1;
-	opacity: .2;
-	transform :translateY(-190rem);
+	opacity: .1;
+	transform :translateY(-150rem);
 	transformtranslateX(-180rem);
 	margin-top -100rem;
 	align-self flex-start ;
@@ -217,6 +232,16 @@ cover{
 	color: #3b3b3b;
 	height25vh;
 }
+.circle{
+	position: absolute;
+	height: 17rem;
+	width:17rem;
+	background-color: rgba(255, 121, 73, 0.679);
+	border-radius: 50%;
+	margin-top: 1.5rem;
+	margin-left: -85rem;
+	z-index:5;
+}
 .services-section {
 	height:10em;
 	background-color: white;
@@ -259,9 +284,45 @@ cover{
 	background-color: #FCFCFC;
 	margin-top: -12rem;
 	margin-bottom: 11rem;
-	box-shadow:10px -5px 20px rgba(14, 14, 14, 0.05),
-	0 -5px 10px rgba(168, 168, 168, .05)
+	box-shadow:10px -5px 20px rgba(14, 14, 14, 0.07),
+	0 -5px 10px rgba(168, 168, 168, .07)
 	;
+}
+.card:hover{
+	transform: translateY(-.5rem);
+	transition: .3s ease-out;
+}
+
+.card{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+}
+.card-logo{
+	margin-top: 1.5rem;
+}
+.card ul{
+	justify-self: center;
+	list-style: none;
+	margin-left: -2rem;
+	margin-top: -.5rem;
+	text-align: center;
+	display flex;
+	flex-direction column;
+	
+
+}
+.card li{
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 200;
+	line-height: 25px;
+	color:rgb(56, 56, 56);
+}
+.card h3{
+font-weight: 600;
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .services-section-continue .management{
@@ -450,13 +511,16 @@ picture4 .subtitle{
 	margin-left:2rem;
 }
 .contact-section{
-	position :relative;
-	dispay:flex;
+	position :absolute;
+	display:flex;
+	justify-content: center;
+	margin-top: 200rem;
 	width:99vw;
 	height:35rem;
 	z-index:1px;
 	background-color:white;
 }
+
 
 @media only screen and (max-width: 800px) {
 	.about-section p {
@@ -481,7 +545,23 @@ picture4 .subtitle{
 	.text{
 		width:100%;
 	}
+	video{
+		
+		min-width :100vw;
+		height:120vh;
+		left-63rem;
+		overflow:visible;
+		object-fit contain;
+		transform :translateY(-175rem);
+	}
+	.contact-section{
+		margin-top :225rem;
+	}
   }
+  @media only screen and (max-width: 600px){
+
+  }
+
 @media only screen and (max-width: 600px) {
 	.about-section p {
 		width :80vw;
@@ -549,6 +629,9 @@ picture4 .subtitle{
 		width: 100%;
 		margin-left:0rem;
 	}
+	.picture-class .text{
+		margin-top: -1rem;;
+	}
 	video{
 		
 		min-width :100vw;
@@ -556,21 +639,78 @@ picture4 .subtitle{
 		left-63rem;
 		overflow:visible;
 		object-fit contain;
-		transform :translateY(-300rem);
-	}
-	cover{
-		width100vw;
-		height100vh;
+		transform :translateY(-195rem);
 	}
 	.contact-section{
-		margin-top: 50rem;
-	}
-}
-@media only screen and (max-width: 800){
-	.equipment{
-		margin-left60px;
+		margin-top :290rem;
 	}
 	.our-work{
-		margin-top:50rem ;
+		height:95rem;
 	}
 }
+
+@media only screen and (max-width: 425px){
+	equipment{
+		margin-left60px;
+	}
+	our-work{
+		margin-top:50rem ;
+	}
+    video{
+	min-width :100vw;
+	height:120vh;
+	left-63rem;
+	overflow:visible;
+	object-fit contain;
+	transform :translateY(-205rem);
+	}
+	.contact-section{
+		margin-top :290rem;
+	}
+}
+@media only screen and (max-width: 400px){
+	.contact-section{
+		margin-top 250rem;
+	}
+}
+
+
+@media only screen and (max-width: 376px){
+	.contact-section{
+		margin-top :290rem;
+	}
+}
+@media only screen and (max-width: 340px){
+	video{
+		min-width :100vw;
+		height:120vh;
+		left-63rem;
+		overflow:visible;
+		object-fit contain;
+		transform :translateY(-200rem);
+		}
+}
+media only screen and (max-width: 540px){
+	video{
+		min-width :100vw;
+		height:120vh;
+		left-63rem;
+		overflow:visible;
+		object-fit contain;
+		transform :translateY(-210rem);
+		}
+}
+@media only screen and (max-width: 360px){
+	video{
+		min-width :100vw;
+		height:120vh;
+		left-63rem;
+		overflow:visible;
+		object-fit contain;
+		transform :translateY(-200rem);
+		}
+		.contact-section{
+			margin-top :300rem;
+		}	
+}
+
