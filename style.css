@@ -12,7 +12,7 @@ header{
 	position:fixed;
 	display: flex;
 	justify-content center;
-	margin-top: 1rem;
+	margin-top 1rem;
 	height: 7vh;
 	width:98vw;
 	z-index: 999;
