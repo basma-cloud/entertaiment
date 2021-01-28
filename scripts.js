@@ -9,9 +9,9 @@ $(document).ready(function(){
          div.stop(true,false).animate({width:"toggle"},850);
       
          
-        $("#home").stop(true,false).animate({fontSize:'60px'},400).animate({fontSize:'50px'},400);
-        $("#about").stop(true,false).animate({fontSize:'60px'},500).animate({fontSize:'50px'},300);
-        $("#contact").stop(true,false).animate({fontSize:'60px'},650).animate({fontSize:'50px'},250);
+        $("#home").stop(true,false).animate({fontSize:'45px'},400).animate({fontSize:'40px'},400);
+        $("#about").stop(true,false).animate({fontSize:'45px'},500).animate({fontSize:'40px'},300);
+        $("#contact").stop(true,false).animate({fontSize:'45px'},650).animate({fontSize:'40px'},250);
         
         });
             

@@ -179,8 +179,8 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
 	z-index900;
 }
 #main-menu ul{
-	font-size:50px; 
-	font-weight: 900;
+	font-size50px; 
+	font-weight: 700;
 	color: rgb(51, 0, 14);
 	list-style:none; 
 	text-align:center;
@@ -556,6 +556,8 @@ picture4 .subtitle{
 	}
 	#main-menu ul{
 		text-align :center; 
+		margin-left: -2rem;
+		font-size: 40px;
 	}
 	.about-section p {
 		width :80vw;
@@ -590,6 +592,7 @@ picture4 .subtitle{
 @media only screen and (max-width: 600px) {
 	#main-menu ul{
 		text-align :center; 
+		font-size: 30px;
 	}
 	.about-section p {
 		width :80vw;
@@ -686,6 +689,7 @@ picture4 .subtitle{
 	}
 	#main-menu ul{
 		text-align :center; 
+		font-size: 40px;
 	}
     video{
 	min-width :100vw;
