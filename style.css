@@ -19,6 +19,9 @@ header{
 	background-colorwhite;
 
 }
+.white{
+	background-color:white;
+}
 .zan-logo{
 	width10rem;
 	height5rem;
@@ -180,7 +183,7 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
 }
 #main-menu ul{
 	font-size50px; 
-	line-height:60px;
+	line-height:55px;
 	font-weight: 700;
 	color: rgb(51, 0, 14);
 	list-style:none; 
