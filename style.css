@@ -588,6 +588,9 @@ picture4 .subtitle{
   }
 
 @media only screen and (max-width: 600px) {
+	#main-menu ul{
+		text-align :center; 
+	}
 	.about-section p {
 		width :80vw;
 	}
@@ -680,6 +683,9 @@ picture4 .subtitle{
 	}
 	our-work{
 		margin-top:50rem ;
+	}
+	#main-menu ul{
+		text-align :center; 
 	}
     video{
 	min-width :100vw;
