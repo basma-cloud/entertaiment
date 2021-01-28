@@ -8,11 +8,14 @@ body{
 	flex-direction:column;
 }
 header{
-	position: relative;
+	position relative;
+	position:fixed;
 	display: flex;
 	justify-content center;
+	margin-top: 1rem;
 	height: 7vh;
 	width:98vw;
+	z-index: 999;
 }
 .zan-logo{
 	width10rem;
@@ -21,14 +24,16 @@ header{
 	margin-top: 1.3rem;
 }
 #nav-container{
-	position:relative;
-	top:7vh;
+	position:fixed;
+	top:12vh;
+	z-index:999;
 	left 5vw;
     margin-3em;
 	margin-right -10em;
 	justify-self center;
 }
 #button{
+	z-index999;
     font-size80px;
     margin-top2em;
     positionabsolute;
@@ -38,7 +43,7 @@ header{
     height30px;
     z-index: 999;
     display inline;
-    position relative;
+    position: fixed;
     top4cm;
 	width 100%;
 	margin -2.2em auto 0 0.2em;
@@ -129,29 +134,33 @@ header{
 	box-shadow: 0.4em 0 0.6em 0.1em rgba(83,228,68,0.65);
 }
 #main-menu-container{
-    position fixed;
+    position :fixed;
 	display: none;
 	width:100%;
     margin-top 2.5cm;
-    margin-left 1cm;
+	margin-left 1cm;
+	z-index:900;
     margin-right-50px;
 }
 #main-menu{
 	background#6A7FDB;
 	background: rgb(126,0,33,.1);
-    background: linear-gradient(90deg, rgba(126,0,33,.7) 0%, rgba(254,93,38,.9) 100%);
+    background: linear-gradient(90deg, rgba(126,0,33,.9) 0%, rgba(254,93,38,.9) 100%);
 	/*background: rgb(106,127,219);
 background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 100%);*/
     background #7e0021;
    /* background: linear-gradient(90deg, rgba(126,0,33,1) 0%, #d60155 31%, rgba(251,4,144,1) 57%, #f30484 69%, rgba(220,2,95,1) 84%, rgba(185,1,70,1) 100%);
-    */position fixed;
+	*/position fixed;
+	z-index-5;
     height:80vh;
 	width: 95vw;
 	left-2.5vw;
     border-radius:1%; 
     display:flex; 
     justify-content:center; 
-    align-items:center; 
+	align-items:center; 
+	margin-top:2rem;
+	z-index900;
 }
 #main-menu ul{
 	font-size:50px; 
@@ -642,7 +651,7 @@ picture4 .subtitle{
 		transform :translateY(-195rem);
 	}
 	.contact-section{
-		margin-top :290rem;
+		margin-top :260rem;
 	}
 	.our-work{
 		height:95rem;
@@ -664,20 +673,20 @@ picture4 .subtitle{
 	object-fit contain;
 	transform :translateY(-205rem);
 	}
-	.contact-section{
+	contact-section{
 		margin-top :290rem;
 	}
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 420px){
 	.contact-section{
-		margin-top 250rem;
+		margin-top :310rem;
 	}
 }
 
 
 @media only screen and (max-width: 376px){
 	.contact-section{
-		margin-top :290rem;
+		margin-top :315rem;
 	}
 }
 @media only screen and (max-width: 340px){
@@ -709,7 +718,7 @@ media only screen and (max-width: 540px){
 		object-fit contain;
 		transform :translateY(-200rem);
 		}
-		.contact-section{
+		contact-section{
 			margin-top :300rem;
 		}	
 }
