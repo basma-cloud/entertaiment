@@ -555,7 +555,7 @@ picture4 .subtitle{
 		height85vh;
 	}
 	#main-menu ul{
-		text-align :left;
+		text-align :center; 
 	}
 	.about-section p {
 		width :80vw;
