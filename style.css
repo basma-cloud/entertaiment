@@ -719,7 +719,7 @@ scale-icons{
 		left-63rem;
 		overflow:visible;
 		object-fit contain;
-		transform :translateY(-340rem);
+		transform :translateY(-430rem);
 	}
 	.contact-section{
 		margin-top :225rem;
@@ -905,14 +905,14 @@ media only screen and (max-width: 540px){
 		transform :translateY(-210rem);
 		}
 }
-media only screen and (max-width: 360px){
+@media only screen and (max-width: 380px){
 	video{
 		min-width :100vw;
 		height:120vh;
 		left-63rem;
 		overflow:visible;
 		object-fit contain;
-		transform :translateY(-200rem);
+		transform :translateY(-400rem);
 		}
 		contact-section{
 			margin-top :300rem;
