@@ -8,7 +8,7 @@ $(document).ready(function(){
         var div = $("#main-menu-container");
          div.stop(true,false).animate({width:"toggle"},850);
       
-         
+        $("#home").stop(true,false).animate({fontSize:'42px'},300).animate({fontSize:'38px'},300);
         $("#about").stop(true,false).animate({fontSize:'42px'},400).animate({fontSize:'38px'},400);
         $("#services").stop(true,false).animate({fontSize:'42px'},500).animate({fontSize:'38px'},300);
         $("#contact").stop(true,false).animate({fontSize:'42px'},650).animate({fontSize:'38px'},250);
@@ -20,21 +20,10 @@ $(document).ready(function(){
     });
 
 });
-var elementx = $('.contact-section');
-      
-$('#contact').click(function(e){
+var home = $('.welcome-section');
+$('#home').click(function(e){
   $('html, body').animate({
-        scrollTop: $(elementx).offset().top
-    }, 700);
-
-    var div = $("#main-menu-container");
-    div.stop(true,false).animate({width:"toggle"},650);
-})
-
-var service = $('.services-section');
-$('#services').click(function(e){
-  $('html, body').animate({
-        scrollTop: $(service).offset().top
+        scrollTop: $(home).offset().top
     }, 700);
 
     var div = $("#main-menu-container");
@@ -51,8 +40,31 @@ $('#about').click(function(e){
     div.stop(true,false).animate({width:"toggle"},650);
 })
 
+var contact = $('.contact-section');
+      
+$('#contact').click(function(e){
+  $('html, body').animate({
+        scrollTop: $(contact).offset().top
+    }, 700);
+
+    var div = $("#main-menu-container");
+    div.stop(true,false).animate({width:"toggle"},650);
+})
+
+var service = $('.services-section');
+$('#services').click(function(e){
+  $('html, body').animate({
+        scrollTop: $(service).offset().top
+    }, 700);
+
+    var div = $("#main-menu-container");
+    div.stop(true,false).animate({width:"toggle"},650);
+})
+
+
+
     
-    var $animation_elements = $('.animation-element');
+var $animation_elements = $('.animation-element');
 var $window = $(window);
 
 function check_if_in_view() {
@@ -69,9 +81,9 @@ function check_if_in_view() {
     //check to see if this current container is within viewport
     if ((element_bottom_position >= window_top_position) &&
         (element_top_position <= window_bottom_position)) {
-      $element.addClass('in-view');
+      $element.addClass('in-view scale-icons');
     } else {
-      $element.removeClass('in-view');
+      $element.removeClass('in-view scale-icons' );
     }
   });
 }
