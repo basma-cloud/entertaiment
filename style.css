@@ -315,11 +315,15 @@ cover{
 	background-color: #FCFCFC;
 	margin-top: -12rem;
 	margin-bottom: 11rem;
-	box-shadow:10px -5px 20px rgb(0, 0, 0),
+	box-shadow:20px -5px 30px rgb(0, 0, 0),
 	0 -5px 10px rgba(156, 156, 156, 0.9)
 	;
 }
 .card:hover{
+	box-shadow:20px -5px 30px rgb(0, 0, 0),
+	0 0 10px rgba(114, 114, 114, 0.9)
+	;
+	background-color: #FCFCFC;
 	transform: translateY(-.5rem);
 	transition: .3s ease-out;
 }
