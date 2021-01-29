@@ -917,6 +917,7 @@ media only screen and (max-width: 540px){
 		.contact-section{
 			margin-top :300rem;
 			padding-top: 7rem;
+			padding-bottom: 10rem;
 		}	
 		header{
 			height:12vh;
