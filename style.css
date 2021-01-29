@@ -914,7 +914,7 @@ media only screen and (max-width: 540px){
 		object-fit contain;
 		transform :translateY(-380rem);
 		}
-		contact-section{
+		.contact-section{
 			margin-top :300rem;
 		}	
 		header{
