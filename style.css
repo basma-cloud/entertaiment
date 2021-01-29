@@ -191,6 +191,16 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
 	color rgb(252, 240, 240);
 }
+#services{
+	line-height:55px;
+	font-weight: 700;
+}
+#main-menu li:hover{
+transform:scale(1.06);
+transition: .5s;
+color:#324197;
+cursor:pointer;
+}
 .welcome-section{
 	display:flex;
 	flex-direction: column;

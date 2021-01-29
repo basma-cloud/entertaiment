@@ -9,8 +9,8 @@ $(document).ready(function(){
          div.stop(true,false).animate({width:"toggle"},850);
       
          
-        $("#home").stop(true,false).animate({fontSize:'42px'},400).animate({fontSize:'38px'},400);
-        $("#about").stop(true,false).animate({fontSize:'42px'},500).animate({fontSize:'38px'},300);
+        $("#about").stop(true,false).animate({fontSize:'42px'},400).animate({fontSize:'38px'},400);
+        $("#services").stop(true,false).animate({fontSize:'42px'},500).animate({fontSize:'38px'},300);
         $("#contact").stop(true,false).animate({fontSize:'42px'},650).animate({fontSize:'38px'},250);
         
     });
@@ -18,8 +18,38 @@ $(document).ready(function(){
     $("header").on("scroll",function(){
         $("header").addClass("white");
     });
+
+});
+var elementx = $('.contact-section');
       
-    });
+$('#contact').click(function(e){
+  $('html, body').animate({
+        scrollTop: $(elementx).offset().top
+    }, 700);
+
+    var div = $("#main-menu-container");
+    div.stop(true,false).animate({width:"toggle"},650);
+})
+
+var service = $('.services-section');
+$('#services').click(function(e){
+  $('html, body').animate({
+        scrollTop: $(service).offset().top
+    }, 700);
+
+    var div = $("#main-menu-container");
+    div.stop(true,false).animate({width:"toggle"},650);
+})
+
+var about = $('.about-section');
+$('#about').click(function(e){
+  $('html, body').animate({
+        scrollTop: $(about).offset().top
+    }, 700);
+
+    var div = $("#main-menu-container");
+    div.stop(true,false).animate({width:"toggle"},650);
+})
 
     
     var $animation_elements = $('.animation-element');
