@@ -28,6 +28,7 @@ $('#home').click(function(e){
 
     var div = $("#main-menu-container");
     div.stop(true,false).animate({width:"toggle"},650);
+    $('#nav-container').toggleClass("pushed");
 })
 
 var about = $('.about-section');
@@ -38,6 +39,7 @@ $('#about').click(function(e){
 
     var div = $("#main-menu-container");
     div.stop(true,false).animate({width:"toggle"},650);
+    $('#nav-container').toggleClass("pushed");
 })
 
 var contact = $('.contact-section');
@@ -49,6 +51,7 @@ $('#contact').click(function(e){
 
     var div = $("#main-menu-container");
     div.stop(true,false).animate({width:"toggle"},650);
+    $('#nav-container').toggleClass("pushed");
 })
 
 var service = $('.services-section');
@@ -59,7 +62,9 @@ $('#services').click(function(e){
 
     var div = $("#main-menu-container");
     div.stop(true,false).animate({width:"toggle"},650);
+    $('#nav-container').toggleClass("pushed");
 })
+
 
 
 
