@@ -26,7 +26,7 @@ header{
 	width10rem;
 	height5rem;
 	margin-left:1.6rem;
-	margin-top: 1vh;
+	margin-top: -2.4vh;
 }
 #nav-container{
 	position:fixed;
@@ -164,7 +164,7 @@ header{
 #main-menu{
 	background#6A7FDB;
 	background: rgb(126,0,33,.1);
-    background: linear-gradient(90deg, rgba(126,0,33,.9) 0%, rgba(254,93,38,.9) 100%);
+    background: linear-gradient(90deg, hsl(345, 85%, 53%,.9),rgba(254,93,38,.9) 100%);
 	/*background: rgb(106,127,219);
 background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 100%);*/
     background #7e0021;
@@ -185,7 +185,7 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
 	font-size50px; 
 	line-height:55px;
 	font-weight: 700;
-	color: rgb(51, 0, 14);
+	color: rgb(15, 0, 4);
 	list-style:none; 
 	text-align:center;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
@@ -243,7 +243,7 @@ cover{
 	height: 50vh;
 	width: 99vw;
 	align-self center;
-	background-color: #ffffff;
+	background-color:#222327;
 	display: flex;
 	flex-direction:column;
     align-items: center;
@@ -255,17 +255,18 @@ cover{
 .about-section .title{
 	font-size:30px;
 	margin-bottom 1em;
+	color:#fff;
 }
 .about-section p{
 	width :60vw;
-	color: #3b3b3b;
+	color: #ececec;
 	height25vh;
 }
 .circle{
 	position: absolute;
 	height: 17rem;
 	width:17rem;
-	background-color: rgba(255, 121, 73, 0.679);
+	background-color: rgba(255, 82, 19, 0.575);
 	border-radius: 50%;
 	margin-top: 1.5rem;
 	margin-left: -85rem;
@@ -273,7 +274,7 @@ cover{
 }
 .services-section {
 	height:10em;
-	background-color: white;
+	background-color:#222327;
 	width: 99vw;
 	display:flex;
 	align-items center;
@@ -288,6 +289,7 @@ cover{
 .services-section .title{
 	position: absolute;
 	margin-top 5em;
+	color:#fff;
 
 }
 .services-section-continue{
@@ -313,8 +315,8 @@ cover{
 	background-color: #FCFCFC;
 	margin-top: -12rem;
 	margin-bottom: 11rem;
-	box-shadow:10px -5px 20px rgba(14, 14, 14, 0.07),
-	0 -5px 10px rgba(168, 168, 168, .07)
+	box-shadow:10px -5px 20px rgb(0, 0, 0),
+	0 -5px 10px rgba(156, 156, 156, 0.9)
 	;
 }
 .card:hover{
@@ -329,7 +331,21 @@ cover{
 }
 .card-logo{
 	margin-top: 1.5rem;
+
 }
+.production-logo {
+	margin-top: -1.2rem;
+}
+.production h3{
+	margin-top: -1.5rem;
+}
+.management-logo{
+	margin-top:.2rem ;
+}
+.management h3{
+	margin-top: .2rem;
+}
+
 .card ul{
 	justify-self: center;
 	list-style: none;
