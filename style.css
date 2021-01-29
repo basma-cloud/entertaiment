@@ -873,7 +873,7 @@ Form styles
 
 .contract__formRight {
 	flex: 0.3;
-	margin: 50px;
+	margin: 40px;
 }
 
 
@@ -903,4 +903,38 @@ Form styles
 	border: none;
 	font-size: 20px;
 	cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+	.contact-form {
+		flex-direction: column;
+	}
+
+	.contract__formLeft {
+		flex: 1;
+	}
+
+	.contract__formRight {
+		flex: 1;
+		margin: 10px;
+	}
+
+	.contract__formRight input {
+		width: 80%;
+	}
+
+	.contract__formRight textarea {
+		width: 80%;
+	}
+
+	.contract__formRight form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.contact-section {
+		height: 80rem;
+	}
+
 }
