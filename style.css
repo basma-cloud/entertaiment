@@ -291,7 +291,7 @@ video{
 	overflowhidden;
 	z-index:-1;
 	opacity: .1;
-	transform :translateY(-230rem);
+	transform :translateY(-210rem);
 	transformtranslateX(-180rem);
 	margin-top -100rem;
 	align-self flex-start ;
@@ -655,7 +655,17 @@ footer{
 	background-color:#222327;
 	height: 30vh;
 	width:99vw;
-	margin-top: 68rem;
+	margin-top: 50rem;
+	padding-bottom 5rem;
+}
+footer h1{
+   font-size: 30px;
+   color: #fff;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 3rem;
+   margin-bottom: -2rem;
+   margin-left: 1rem;
+   font-weight: 100;
 }
 
 /*
@@ -1054,7 +1064,7 @@ media only screen and (max-width: 540px){
 		left-63rem;
 		overflow:visible;
 		object-fit contain;
-		transform :translateY(-390rem);
+		transform :translateY(-375rem);
 		}
 		.contact-section{
 			margin-top :300rem;
@@ -1098,7 +1108,7 @@ Form styles
 */
 
 .contact-form {
-	width: 100%;
+	width: 99%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
