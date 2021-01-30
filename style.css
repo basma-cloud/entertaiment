@@ -1013,6 +1013,9 @@ media only screen and (max-width: 540px){
 	header{
 		height:11vh;
 	}
+	.icon{
+		width: 21px;
+	}
 }
 @media only screen and (max-width: 375px){
 	
@@ -1051,7 +1054,7 @@ media only screen and (max-width: 540px){
 		left-63rem;
 		overflow:visible;
 		object-fit contain;
-		transform :translateY(-370rem);
+		transform :translateY(-375rem);
 		}
 		.contact-section{
 			margin-top :300rem;
@@ -1060,6 +1063,9 @@ media only screen and (max-width: 540px){
 		}	
 		header{
 			height:10vh;
+		}
+		.zan-logo{
+			margin-top: -1.4rem;
 		}
 }
 @media only screen and (max-width: 280px){
