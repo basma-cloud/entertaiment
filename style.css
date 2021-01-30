@@ -28,6 +28,20 @@ header{
 	margin-left:1.6rem;
 	margin-top: -2.4vh;
 }
+.social-icons ul{
+	display: flex;
+	list-style: none;
+	margin-top: 3vh;
+	margin-left: 60vw;
+}
+.social-icons li{
+	margin-left: 2vw;
+	cursor: pointer;
+}
+.social-icons li:hover{
+	transform: scale(1.2);
+	transition: .3s;
+}
 #nav-container{
 	position:fixed;
 	top:13vh;
@@ -182,7 +196,7 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
 	z-index900;
 }
 #main-menu ul{
-	font-size50px; 
+	font-size:40px; 
 	line-height:55px;
 	font-weight: 700;
 	color: rgb(15, 0, 4);
@@ -198,7 +212,7 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
 #main-menu li:hover{
 transform:scale(1.06);
 transition: .5s;
-color:#324197;
+color:#12705c;
 cursor:pointer;
 }
 .welcome-section{
@@ -789,6 +803,12 @@ header{
 		transform: translateY(-290rem);
 	}
 	  }
+	  .social-icons ul{
+		display: flex;
+		list-style: none;
+		margin-top: 3vh;
+		margin-left 30vw;
+	}
 
 @media only screen and (max-width: 600px) {
 	#main-menu ul{
@@ -884,6 +904,12 @@ header{
 	}
 	.our-work{
 		height95rem;
+	}
+	.social-icons ul{
+		display: flex;
+		list-style: none;
+		margin-top: 3vh;
+		margin-left: 15vw;
 	}
 }
 
@@ -1024,7 +1050,7 @@ media only screen and (max-width: 540px){
 		left-63rem;
 		overflow:visible;
 		object-fit contain;
-		transform :translateY(-390rem);
+		transform :translateY(-380rem);
 		}
 		.contact-section{
 			margin-top :300rem;
