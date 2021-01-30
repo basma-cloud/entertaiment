@@ -1025,6 +1025,7 @@ media only screen and (max-width: 540px){
 	}
 	.icon{
 		width: 21px;
+		margin-right: 1rem;
 	}
 }
 @media only screen and (max-width: 375px){
@@ -1064,7 +1065,7 @@ media only screen and (max-width: 540px){
 		left-63rem;
 		overflow:visible;
 		object-fit contain;
-		transform :translateY(-390rem);
+		transform :translateY(-390git rem);
 		}
 		.contact-section{
 			margin-top :300rem;
