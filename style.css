@@ -988,11 +988,9 @@ media only screen and (max-width: 540px){
 	}
 }
 @media only screen and (max-width: 375px){
-	#zan-svg{
-		font-size: 17px;
-	}
+	
 	header{
-		height: 9vh;
+		height: 7vh;
 	}
 }
 @media only screen and (max-width: 310px){
@@ -1034,7 +1032,7 @@ media only screen and (max-width: 540px){
 			padding-bottom: 10rem;
 		}	
 		header{
-			height:12vh;
+			height:10vh;
 		}
 }
 @media only screen and (max-width: 280px){
