@@ -969,6 +969,9 @@ media only screen and (max-width: 540px){
 	.main-logo-container h1{
 		font-size: 30px;
 	}
+	#zen-svg{
+		width:25vw;
+	}
 }
 @media only screen and (max-width: 420px){
 	.main-logo-container h1{
@@ -979,6 +982,17 @@ media only screen and (max-width: 540px){
 	}
 	#main-logo{
 		margin-top: 5vh;
+	}
+	header{
+		height:11vh;
+	}
+}
+@media only screen and (max-width: 375px){
+	#zan-svg{
+		font-size: 17px;
+	}
+	header{
+		height: 9vh;
 	}
 }
 @media only screen and (max-width: 310px){
