@@ -3,7 +3,7 @@ $(document).ready(function(){
   
 
     $("#button").on("click",function(){
-    
+        $(".main-logo-container").toggleClass("hide-main-titles");
         $('#nav-container').toggleClass("pushed");
         var div = $("#main-menu-container");
          div.stop(true,false).animate({width:"toggle"},850);
@@ -22,6 +22,7 @@ $(document).ready(function(){
 });
 var home = $('.welcome-section');
 $('#home').click(function(e){
+  $(".main-logo-container").toggleClass("hide-main-titles");
   $('html, body').animate({
         scrollTop: $(home).offset().top
     }, 700);
@@ -33,6 +34,7 @@ $('#home').click(function(e){
 
 var about = $('.about-section');
 $('#about').click(function(e){
+  $(".main-logo-container").toggleClass("hide-main-titles");
   $('html, body').animate({
         scrollTop: $(about).offset().top
     }, 700);
@@ -45,6 +47,7 @@ $('#about').click(function(e){
 var contact = $('.contact-section');
       
 $('#contact').click(function(e){
+  $(".main-logo-container").toggleClass("hide-main-titles");
   $('html, body').animate({
         scrollTop: $(contact).offset().top
     }, 700);
@@ -56,6 +59,7 @@ $('#contact').click(function(e){
 
 var service = $('.services-section');
 $('#services').click(function(e){
+  $(".main-logo-container").toggleClass("hide-main-titles");
   $('html, body').animate({
         scrollTop: $(service).offset().top
     }, 700);

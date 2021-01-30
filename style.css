@@ -255,6 +255,10 @@ cursor:pointer;
 	margin-top 400rem;
 	z-index999;
 }
+.hide-main-titles{
+	height:0px;
+	transition: .5s;
+}
 video{
 	/*position: absolute;
 	align-self:flex-start ;
