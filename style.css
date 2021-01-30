@@ -202,12 +202,58 @@ color:#324197;
 cursor:pointer;
 }
 .welcome-section{
-	display:flex;
-	flex-direction: column;
+	displayflex;
+	flex-direction column;
 	height: 100vh;
 	width:100%;
 	margin-left :2.5vw;
 
+}
+.main-logo-container{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	align-itemscenter;
+	width: 99vw;
+	height: 100vh;
+	background-color#3c57ee;
+	text-align: center;
+}
+.main-logo-container h1{
+   position: absolute;
+   font-size: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top:50vh ;
+   margin-left 33vw;
+   color:white;
+   line-height 10vh;
+   text-aligncenter;
+}
+#slogan{
+	margin-top:60vh;
+	margin-left25vw ;
+	text-align: center;
+}
+.zan-logo1{
+	position:absolute ;
+	z-index:999;
+	display flex;
+	align-items center;
+	justify-content center;
+	margin-top:10vh;
+	height100vh;
+	width99vw;
+	margin-left 35vw;
+	padding-top20rem;
+	background-color #3c57ee;
+	padding-left 50vw;
+}
+#zan-svg1{
+	margin50rem auto;
+	positionabsolute;
+	margin-top 400rem;
+	z-index999;
 }
 video{
 	/*position: absolute;
@@ -905,6 +951,56 @@ media only screen and (max-width: 540px){
 		transform :translateY(-210rem);
 		}
 }
+@media only screen and (max-width: 680px){
+	.main-logo-container h1{
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width: 550px){
+	.main-logo-container h1{
+		font-size: 35px;
+	}
+}
+@media only screen and (max-width: 480px){
+	.main-logo-container h1{
+		font-size: 30px;
+	}
+}
+@media only screen and (max-width: 420px){
+	.main-logo-container h1{
+		font-size: 25px;
+	}
+	#slogan{
+		margin-top: 58vh;
+	}
+	#main-logo{
+		margin-top: 5vh;
+	}
+}
+@media only screen and (max-width: 310px){
+	.main-logo-container h1{
+		font-size: 17px;
+	}
+}
+@media only screen and (max-width: 700px){
+	#main-logo{
+		width: 50vw;
+	}
+}
+	@media only screen and (max-width: 700px){
+		#main-logo{
+			width: 50vw;
+		}
+	}
+	
+
+
+@media only screen and (max-width: 500px){
+	#main-logo{
+		width: 65vw;
+	}
+}
+
 @media only screen and (max-width: 380px){
 	video{
 		min-width :100vw;
