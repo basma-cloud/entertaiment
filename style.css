@@ -660,13 +660,22 @@ footer{
 }
 footer h1{
    font-size: 30px;
-   color: #fff;
+   color: #50B2B5;
    font-family: Arial, Helvetica, sans-serif;
    margin-top: 3rem;
    margin-bottom: -2rem;
    margin-left: 1rem;
    font-weight: 100;
 }
+footer h2{
+	font-size: 30px;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 3rem;
+	margin-bottom: -2rem;
+	margin-left: 1rem;
+	font-weight: 100;
+ }
 
 /*
 animations
@@ -1027,6 +1036,11 @@ media only screen and (max-width: 540px){
 		width: 21px;
 		margin-left: .5rem;
 	}
+	footer .text{
+		margin-top: -10rem;
+		text-align: center;
+	}
+
 }
 @media only screen and (max-width: 375px){
 	
@@ -1065,7 +1079,7 @@ media only screen and (max-width: 540px){
 		left-63rem;
 		overflow:visible;
 		object-fit contain;
-		transform :translateY(-390git rem);
+		transform :translateY(-380rem);
 		}
 		.contact-section{
 			margin-top :300rem;
@@ -1078,6 +1092,15 @@ media only screen and (max-width: 540px){
 		.zan-logo{
 			margin-top: -1.4rem;
 		}
+		footer h2{
+			font-size: 19.5px;
+			color: #fff;
+			font-family: Arial, Helvetica, sans-serif;
+			margin-top: 3rem;
+			margin-bottom: -2rem;
+			margin-left: 1rem;
+			font-weight: 100;
+		 }
 }
 @media only screen and (max-width: 280px){
 	header{
