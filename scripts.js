@@ -8,11 +8,11 @@ $(document).ready(function(){
         var div = $("#main-menu-container");
          div.stop(true,false).animate({width:"toggle"},850);
       
-        $("#home").stop(true,false).animate({marginLeft:'-100%'},0).animate({marginLeft:'0%'},700);
-        $("#about").stop(true,false).animate({marginLeft:'-100%'},0).animate({marginLeft:'0%'},800);
+        $("#home").stop(true,false).animate({marginLeft:'-100%'},0).animate({marginLeft:'0%'},500);
+        $("#about").stop(true,false).animate({marginLeft:'-100%'},0).animate({marginLeft:'0%'},700);
   
         $("#services").stop(true,false).animate({marginLeft:'-100%'},0).animate({marginLeft:'0%'},900);
-        $("#contact").stop(true,false).animate({marginLeft:'-100%'},0).animate({marginLeft:'0%'},1000);
+        $("#contact").stop(true,false).animate({marginLeft:'-100%'},0).animate({marginLeft:'0%'},900);
         
     });
          
