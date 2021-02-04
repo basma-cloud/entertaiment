@@ -12,7 +12,7 @@ $(document).ready(function(){
         $("#about").stop(true,false).animate({marginLeft:'-100%'},200).animate({marginLeft:'0%'},700);
   
         $("#services").stop(true,false).animate({marginLeft:'-100%'},300).animate({marginLeft:'0%'},900);
-        $("#contact").stop(true,false).animate({marginLeft:'-100%'},400).animate({marginLeft:'0%'},900);
+        $("#contact").stop(true,false).animate({marginLeft:'-100%'},400).animate({marginLeft:'0%'},1100);
         
     });
          
