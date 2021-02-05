@@ -44,15 +44,15 @@ header:before{
 	list-style: none;
 	color:#50B2B5;
 	font-size: 23px;
-	font-family: sans-serif;
+	font-family: serif;
 	font-weight: 770;
-	margin-left: 23vw;
+	margin-left: 19vw;
 	margin-top: 3vh;
 	
 }
 .header-menu li{
 	cursor: pointer;
-	margin-right: 2.5vw;
+	margin-right:5.5vw;
 	text-shadow:0 0 10px rgba(128, 244, 248, 0.5),
 	0 0 1px #12705c
 	;
@@ -66,7 +66,7 @@ header:before{
 	display: flex;
 	list-style: none;
 	margin-top: 3vh;
-	margin-left: 18vw;
+	margin-left: 13vw;
 }
 .social-icons li{
 	margin-left: 1.2vw;
@@ -325,7 +325,8 @@ video{
 	height: 50rem;
 	overflowhidden;
 	z-index:-1;
-	opacity: .1;
+	opacity: .05;
+	filter:saturate(100%);
 	transform :translateY(-210rem);
 	transformtranslateX(-180rem);
 	margin-top -100rem;
@@ -429,13 +430,14 @@ cover{
 	overflow: hidden;
 	height:22rem;
 	width:18rem;
-	background-color:rgb(255, 255, 255,.8);
-	box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+	background-color: #ffffff;
+	box-shadow inset 0 0 2000px rgba(255, 255, 255, .5);
     filter blur(10px);
 	margin-top: -12rem;
 	margin-bottom: 11rem;
 	box-shadow:20px -5px 30px rgb(0, 0, 0)
-	
+	,
+	0 0 10px rgba(114, 114, 114, 0.9)
 	;
 }
 .services-section-continue .card:before{
@@ -445,8 +447,8 @@ cover{
     left: 0;
     right: 0;
 	bottom: 0;
-	box-shadow: inset 0 0 2000px rgba(54, 54, 54, 0.9);
-    filter: blur(10px);
+	box-shadow: inset 0 0 2000px rgba(92, 92, 92, 0.9);
+    filter: blur(5px);
 }
 
 .card:hover{
