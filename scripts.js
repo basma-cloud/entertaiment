@@ -32,6 +32,12 @@ $('#home').click(function(e){
     div.stop(true,false).animate({width:"toggle"},650);
     $('#nav-container').toggleClass("pushed");
 })
+var homeMain =$('.welcome-section');
+$('#home-main').click(function(e){
+  $('html, body').animate({
+    scrollTop: $(homeMain).offset().top
+}, 700);
+})
 
 var about = $('.about-section');
 $('#about').click(function(e){
@@ -43,6 +49,12 @@ $('#about').click(function(e){
     var div = $("#main-menu-container");
     div.stop(true,false).animate({width:"toggle"},650);
     $('#nav-container').toggleClass("pushed");
+})
+var aboutMain =$('.about-section');
+$('#about-main').click(function(e){
+  $('html, body').animate({
+    scrollTop: $(aboutMain).offset().top
+}, 700);
 })
 
 var contact = $('.contact-section');
@@ -58,6 +70,13 @@ $('#contact').click(function(e){
     $('#nav-container').toggleClass("pushed");
 })
 
+var contactMain =$('.contact-section');
+$('#contact-main').click(function(e){
+  $('html, body').animate({
+    scrollTop: $(contactMain).offset().top
+}, 700);
+})
+
 var service = $('.services-section');
 $('#services').click(function(e){
   $(".main-logo-container").toggleClass("hide-main-titles");
@@ -68,6 +87,13 @@ $('#services').click(function(e){
     var div = $("#main-menu-container");
     div.stop(true,false).animate({width:"toggle"},650);
     $('#nav-container').toggleClass("pushed");
+})
+
+var servicesMain =$('.services-section');
+$('#services-main').click(function(e){
+  $('html, body').animate({
+    scrollTop: $(servicesMain).offset().top
+}, 700);
 })
 
 
