@@ -211,8 +211,9 @@ header:before{
 }
 #main-menu{
 	background#6A7FDB;
-	background: rgb(126,0,33,.1);
-    background: linear-gradient(90deg, hsl(345, 85%, 53%,.9),rgba(254,93,38,.9) 100%);
+	/*background: rgb(126,0,33,.1);*/
+    /*background: linear-gradient(90deg, hsl(345, 85%, 53%,.9),rgba(254,93,38,.9) 100%);*/
+	background: linear-gradient(90deg, rgb(50, 65, 151,.9),rgb(80, 178, 181,.9) 100%);
 	/*background: rgb(106,127,219);
 background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 100%);*/
     background #7e0021;
@@ -1029,7 +1030,23 @@ media only screen and (max-width: 377px){
 		height9vh;
 	}
 
-
+    .header-menu ul{
+		display: none;
+	}
+    
+	#button{
+		display:block;
+	}
+	#zen-svg{
+		margin-top: 4vh;
+	}
+	.social-icons{
+		margin-left: 12vw;
+		margin-top: 1vh;
+	}
+	.social-icons li{
+		margin-right: -1vw;
+	}
 }
 
 
