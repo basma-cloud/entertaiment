@@ -1042,9 +1042,10 @@ media only screen and (max-width: 377px){
 	}
 	#zen-svg{
 		margin-top: 4vh;
+
 	}
 	.social-icons{
-		margin-left: 10vw;
+		margin-left: -5vw;
 		margin-top: 1vh;
 	}
 	.social-icons li{
@@ -1124,7 +1125,7 @@ media only screen and (max-width: 540px){
 		margin-top 1rem;
 	}
 	.social-icons{
-		margin-left: 7rem;
+		margin-left: 6rem;
 		margin-top: .3rem;
 	}
 	footer .text{
