@@ -16,9 +16,16 @@ $(document).ready(function(){
         
     });
          
-    $("header").on("scroll",function(){
-        $("header").addClass("white");
-    });
+    function check_header_Viewport(){
+      if( ($("header").offset().top == 0)){
+        $("header").removeClass("grey");
+      } else {
+        $("header").addClass("grey");
+      }
+    }
+    $window.on('scroll resize', check_header_Viewport);
+    $window.trigger('scroll');
+
 
 });
 var home = $('.welcome-section');
@@ -127,3 +134,5 @@ function check_if_in_view() {
 
 $window.on('scroll resize', check_if_in_view);
 $window.trigger('scroll');
+
+

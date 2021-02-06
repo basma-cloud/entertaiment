@@ -16,8 +16,11 @@ header{
 	height: 10vh;
 	width:99vw;
 	z-index: 999;
-	background-color: #222327;
+	background-color#222327;
 
+}
+.grey{
+	background-color: #222327;
 }
 header:before{
 	content: '';
@@ -88,7 +91,7 @@ header:before{
 #button{
 	z-index999;
     font-size80px;
-    margin-top2em;
+    margin-top:-2em;
     positionabsolute;
     background-colorgreen;
     display:none;
@@ -227,7 +230,7 @@ background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 1
     display:flex; 
     justify-content:center; 
 	align-items:center; 
-	margin-top:2rem;
+	margin-top:1.6em;
 	z-index900;
 }
 #main-menu ul{
@@ -1104,11 +1107,25 @@ media only screen and (max-width: 540px){
 		margin-top: 5vh;
 	}
 	header{
-		height:11vh;
+		height:5vh;
+	}
+	#zen-svg{
+		width:65px;
+		height:25px;
+		margin-left: -4vw;
+		margin-top:6.5vh ;
+	}
+	header{
+        height 5rem;
 	}
 	.icon{
-		width: 21px;
+		width: 15px;
 		margin-left: .5rem;
+		margin-top 1rem;
+	}
+	.social-icons{
+		margin-left: 7rem;
+		margin-top: .3rem;
 	}
 	footer .text{
 		margin-top: -10rem;
@@ -1119,7 +1136,7 @@ media only screen and (max-width: 540px){
 @media only screen and (max-width: 375px){
 	
 	header{
-		height: 7vh;
+		height 7vh;
 	}
 }
 @media only screen and (max-width: 310px){
