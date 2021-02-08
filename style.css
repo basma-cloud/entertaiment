@@ -6,6 +6,7 @@ body{
     margin:0px;
 	display:flex ;
 	flex-direction:column;
+	margin-top -10rem;
 }
 header{
 	position relative;
@@ -13,7 +14,7 @@ header{
 	display: flex;
 	justify-content center;
 	margin-top 1rem;
-	height: 10vh;
+	height: 11vh;
 	width:99vw;
 	z-index: 999;
 	background-color#222327;
@@ -22,53 +23,74 @@ header{
 .grey{
 	background-color: #222327;
 }
-header:before{
-	content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-	bottom: 2rem;
-	box-shadow inset 0 0 200px rgba(51, 51, 51, 0.9);
-    filter: blur(50px);
-}
-.white{
-	background-color:white;
-}
+
 .zan-logo{
 	width10rem;
 	height5rem;
-	display none;
+	display :none;
 	margin-left:1.6rem;
 	margin-top: .5vh;
 }
+.header-menu{
+	margin: 0 auto;
+}
 .header-menu ul{
+	position: relative;
 	display: flex;
 	list-style: none;
 	color:#50B2B5;
-	font-size: 23px;
-	font-family: serif;
-	font-weight: 770;
-	margin-left: 19vw;
-	margin-top: 3vh;
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: 500;
+	margin-left :-4vw;
+	margin-top 3vh;
+	margin-top: 1.5vh ;
+	margin-left: -3vw;
+	height 10vh;
+	width99vw;
 	
 }
 .header-menu li{
+	position: relative;
+	width 100px;
+	height50px;
 	cursor: pointer;
-	margin-right:5.5vw;
-	text-shadow:0 0 10px rgba(128, 244, 248, 0.5),
-	0 0 1px #12705c
-	;
+	margin-right:.5vw;
+	text-shadow:
+	0 0 5px rgba(128, 244, 248, 0.5),
+	0 0 1px #12705c;
+	text-align: center;
 }
 .header-menu li:hover{
-	transform: scale(1.1);
+	transform scale(1.1);
+	color: #fff;
+	background-colorwhite;
+	transition: .6s;
+
+}
+.header-menu li::before{
+content: '';
+display:block;
+margin: 0 auto;
+position relative;
+height: .05rem;
+width:7rem;
+margin-bottom: 3vh;
+box-shadow:0 0 10px rgba(128, 244, 248, 0.5),
+	0 0 1px #12705c
+	;
+	background-color:#50B2B5;	
+}
+.header-menu li:hover::before{
+	background-color:white;
+	height: .1rem;
 	transition: .6s;
 }
 
 .social-icons ul{
-	display: flex;
+	display: hidden;
 	list-style: none;
-	margin-top: 3vh;
+	margin-top 3vh;
 	margin-left: 13vw;
 }
 .social-icons li{
@@ -262,8 +284,8 @@ cursor:pointer;
 
 }
 .main-logo-container{
-	display:none;
-	position: absolute;
+	displaynone;
+	position :absolute;
 	display: flex;
 	justify-content: center;
 	overflow: hidden;
@@ -272,29 +294,31 @@ cursor:pointer;
 	height: 100vh;
 	background-color#3c57ee;
 	text-align: center;
+	margin-right20vw;
 }
 .main-logo-container h1{
    position: absolute;
-   font-size: 50px;
+   font-size: 20px;
    font-family: Arial, Helvetica, sans-serif;
-   margin-top:50vh ;
-   margin-left 33vw;
+   margin-top:40vh ;
+   margin-left :15vw;
    color:white;
    line-height 10vh;
-   text-aligncenter;
+   text-align:center;
 }
 #slogan{
-	margin-top:60vh;
+	margin-top:45vh;
 	margin-left25vw ;
 	text-align: center;
 }
 .zan-logo1{
-	position:absolute ;
+	positionabsolute ;
 	z-index:999;
 	display none;
 	align-items center;
 	justify-content center;
-	margin-top:10vh;
+	margin-top:24vh;
+	margin-left:-40vw; 
 	height100vh;
 	width99vw;
 	margin-left 35vw;
@@ -884,7 +908,7 @@ header{
 	}
 	  }
 	  .social-icons ul{
-		display: flex;
+		display: none;
 		list-style: none;
 		margin-top: 3vh;
 		margin-left 30vw;
