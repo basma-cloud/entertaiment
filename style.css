@@ -40,11 +40,11 @@ header{
 	list-style: none;
 	color:#50B2B5;
 	font-size: 18px;
-	font-family:monospace;
+	font-family:'Gill Sans',  sans-serif;
 	font-weight: 500;
 	margin-left :-4vw;
 	margin-top 3vh;
-	margin-top: 1.5vh ;
+	margin-top: 1.7vh ;
 	margin-left: -4vw;
 	height 10vh;
 	width99vw;
@@ -88,14 +88,23 @@ box-shadow:0 0 10px rgba(128, 244, 248, 0.5),
 }
 
 .social-icons ul{
-	display: hidden;
+	position: absolute;
+	display :flex;
+	flex-direction: column;
+
 	list-style: none;
-	margin-top 3vh;
-	margin-left: 13vw;
+	margin-top: 38vh;
+	margin-left: -9vw;
 }
 .social-icons li{
 	margin-left: 1.2vw;
+	margin-bottom: 3vh;
 	cursor: pointer;
+	box-shadow0 0 2px #222327;
+}
+.social-icons li svg{
+	
+	box-shadow0 0 2px #222327;
 }
 .social-icons li:hover{
 	transform: scale(1.2);
@@ -298,7 +307,7 @@ cursor:pointer;
 }
 .main-logo-container h1{
    position: absolute;
-   font-size: 18px;
+   font-size: 20px;
    font-weight: 200;
    font-family:'Gill Sans',  sans-serif;
    margin-top:41vh ;
@@ -356,7 +365,7 @@ video{
 	z-index:-1;
 	opacity: .05;
 	filter:saturate(100%);
-	transform :translateY(-210rem);
+	transform :translateY(-215rem);
 	transformtranslateX(-180rem);
 	margin-top -100rem;
 	align-self flex-start ;
@@ -909,9 +918,9 @@ header{
 	}
 	  }
 	  .social-icons ul{
-		display: none;
-		list-style: none;
-		margin-top: 3vh;
+		display none;
+		list-style none;
+		margin-top10vh;
 		margin-left 30vw;
 	}
 
