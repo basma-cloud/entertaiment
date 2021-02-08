@@ -64,6 +64,45 @@ $('#about-main').click(function(e){
 }, 700);
 })
 
+
+var service = $('.services-section');
+$('#services').click(function(e){
+  $(".main-logo-container").toggleClass("hide-main-titles");
+  $('html, body').animate({
+        scrollTop: $(service).offset().top
+    }, 700);
+
+    var div = $("#main-menu-container");
+    div.stop(true,false).animate({width:"toggle"},650);
+    $('#nav-container').toggleClass("pushed");
+})
+
+var servicesMain =$('.services-section');
+$('#services-main').click(function(e){
+  $('html, body').animate({
+    scrollTop: $(servicesMain).offset().top
+}, 700);
+})
+
+var ourWork = $('.our-work');
+$('#our-work').click(function(e){
+  $(".main-logo-container").toggleClass("hide-main-titles");
+  $('html, body').animate({
+        scrollTop: $(ourWork).offset().top
+    }, 700);
+
+    var div = $("#main-menu-container");
+    div.stop(true,false).animate({width:"toggle"},650);
+    $('#nav-container').toggleClass("pushed");
+})
+
+var ourWorkMain =$('.our-work');
+$('#our-work-main').click(function(e){
+  $('html, body').animate({
+    scrollTop: $(ourWorkMain).offset().top
+}, 700);
+})
+
 var contact = $('.contact-section');
       
 $('#contact').click(function(e){
@@ -84,24 +123,6 @@ $('#contact-main').click(function(e){
 }, 700);
 })
 
-var service = $('.services-section');
-$('#services').click(function(e){
-  $(".main-logo-container").toggleClass("hide-main-titles");
-  $('html, body').animate({
-        scrollTop: $(service).offset().top
-    }, 700);
-
-    var div = $("#main-menu-container");
-    div.stop(true,false).animate({width:"toggle"},650);
-    $('#nav-container').toggleClass("pushed");
-})
-
-var servicesMain =$('.services-section');
-$('#services-main').click(function(e){
-  $('html, body').animate({
-    scrollTop: $(servicesMain).offset().top
-}, 700);
-})
 
 
 
