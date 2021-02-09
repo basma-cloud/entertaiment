@@ -568,9 +568,11 @@ font-weight: 600;
 	
 }
 .our-work .title{
+	position: relative;
 	color:white;
 	font-size: 30px;
-	margin-bottom: 3rem;
+	top:1rem;
+	margin-bottom: 3.5rem;
 	justify-self center;
 	displayflex;
 	flex-directioncolumn;
@@ -933,6 +935,38 @@ header{
 		text-align :center; 
 		font-size: 30px;
 	}
+	.header-menu ul{
+		display: none;
+	}
+	.contact-section{
+		margin-top :290rem;
+		height:54rem;
+	}
+	.contract__formLeft h1{
+		font-size: 35px;
+	}	
+	header{
+		height9vh;
+	}
+
+    .header-menu ul{
+		display: none;
+	}
+    
+	#button{
+		displayblock;
+	}
+	#zen-svg{
+		margin-top 4vh;
+
+	}
+	.social-icons{
+		margin-left -5vw;
+		margin-top 1vh;
+	}
+	.social-icons li{
+		margin-right -1vw;
+	}
 	.about-section p {
 		width :80vw;
 	}
@@ -1076,10 +1110,10 @@ media only screen and (max-width: 377px){
 	}
     
 	#button{
-		display:block;
+		displayblock;
 	}
 	#zen-svg{
-		margin-top: 4vh;
+		margin-top 4vh;
 
 	}
 	.social-icons{
