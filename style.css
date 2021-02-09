@@ -1243,14 +1243,14 @@ media only screen and (max-width: 540px){
 		margin-top: -5vh;
 	}
 	#slogan{
-		margin-left: -65vw;
+		margin-left: -63vw;
 	}
 	.social-icons ul{
 		position:absolute;
 		display:flex;
 		flex-direction: row;
 		margin-left: -80vw;
-		margin-top: 17rem;
+		margin-top: 16rem;
 		transform: translateY(45vh);
 		width:50vw;
 		height: 7vh;
