@@ -1262,8 +1262,8 @@ media only screen and (max-width: 540px){
 	.social-icons ul::before{
 		position: absolute;
 		content: "";
-		width:48px;
-		height:47px;
+		width:7vh;
+		height:7vh;
 		border-radius: 50% ;
 		transform:translateX(-60px) ;
 		top:0px;
@@ -1276,7 +1276,7 @@ media only screen and (max-width: 540px){
 	   .social-icons ul::after{
 		position: absolute;
 		content: "";
-		width:50px;
+		width:7vh;
 		height:7vh;
 		border-radius: 50% ;
 		z-index:-1;
