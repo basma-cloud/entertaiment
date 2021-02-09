@@ -327,8 +327,8 @@ cursor:pointer;
 	display none;
 	align-items center;
 	justify-content center;
-	margin-top:24vh;
-	margin-left:-35vw; 
+	margin-top24vh;
+	margin-left-35vw; 
 	height100vh;
 	width99vw;
 	margin-left 35vw;
@@ -1139,16 +1139,17 @@ media only screen and (max-width: 540px){
 	.main-logo-container h1{
 		font-size: 25px;
 		margin-left: -48vw;
-		margin-top :50vh;
+		margin-top :55vh;
 	}
 	#slogan{
 		position: absolute;
 		margin-left :-35vh;
-		margin-top:55vh ;
+		margin-top:60vh ;
 	}
 	#main-logo{
-		margin-top: 0vh;
-		margin-left: 60vw;
+		position absolute;
+		padding-top: 32vh;
+		margin-left: 25vw;
 	}
 	header{
 		height:5vh;
@@ -1245,6 +1246,7 @@ media only screen and (max-width: 540px){
 	}
 	#main-logo{
 		margin-top: -5vh;
+		width:60
 	}
 	#slogan{
 		margin-left: -63vw;
