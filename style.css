@@ -928,7 +928,18 @@ header{
 		margin-left 30vw;
 	}
 
-@media only screen and (max-width: 600px) {
+	@media only screen and (max-width: 700px){
+		.header-menu ul{
+			display: none;
+		}
+		
+		#button{
+			display:block;
+		}
+		
+	}
+
+    @media only screen and (max-width: 600px) {
 	#main-menu ul{
 		text-align :center; 
 		font-size: 30px;
