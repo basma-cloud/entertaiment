@@ -3,8 +3,11 @@ $(document).ready(function(){
   
 
     $("#button").on("click",function(){
-        $(".main-logo-container").toggleClass("hide-main-titles");
-        $('#nav-container').toggleClass("pushed");
+        
+      $(".main-logo-container").toggleClass("hide-main-titles");
+      $(".social-icons").toggleClass("hide-social-icons");
+
+      $('#nav-container').toggleClass("pushed");
         var div = $("#main-menu-container");
          div.stop(true,false).animate({width:"toggle"},850);
       
@@ -33,6 +36,8 @@ $(document).ready(function(){
 var home = $('.welcome-section');
 $('#home').click(function(e){
   $(".main-logo-container").toggleClass("hide-main-titles");
+  $(".social-icons").toggleClass("hide-social-icons");
+
   $('html, body').animate({
         scrollTop: $(home).offset().top
     }, 700);
@@ -50,6 +55,8 @@ $('#home-main').click(function(e){
 
 var about = $('.about-section');
 $('#about').click(function(e){
+  $(".social-icons").toggleClass("hide-social-icons");
+
   $(".main-logo-container").toggleClass("hide-main-titles");
   $('html, body').animate({
         scrollTop: $(about).offset().top
@@ -69,6 +76,8 @@ $('#about-main').click(function(e){
 
 var service = $('.services-section');
 $('#services').click(function(e){
+  $(".social-icons").toggleClass("hide-social-icons");
+
   $(".main-logo-container").toggleClass("hide-main-titles");
   $('html, body').animate({
         scrollTop: $(service).offset().top
@@ -81,6 +90,7 @@ $('#services').click(function(e){
 
 var servicesMain =$('.services-section');
 $('#services-main').click(function(e){
+
   $('html, body').animate({
     scrollTop: $(servicesMain).offset().top
 }, 700);
@@ -88,6 +98,8 @@ $('#services-main').click(function(e){
 
 var ourWork = $('.our-work');
 $('#our-work').click(function(e){
+  $(".social-icons").toggleClass("hide-social-icons");
+
   $(".main-logo-container").toggleClass("hide-main-titles");
   $('html, body').animate({
         scrollTop: $(ourWork).offset().top
@@ -108,6 +120,8 @@ $('#our-work-main').click(function(e){
 var contact = $('.contact-section');
       
 $('#contact').click(function(e){
+  $(".social-icons").toggleClass("hide-social-icons");
+
   $(".main-logo-container").toggleClass("hide-main-titles");
   $('html, body').animate({
         scrollTop: $(contact).offset().top

@@ -346,6 +346,10 @@ cursor:pointer;
 	height:0px;
 	transition: .5s;
 }
+.hide-social-icons{
+	display:none;
+	transition: .5s;	
+}
 video{
 	/*position: absolute;
 	align-self:flex-start ;
