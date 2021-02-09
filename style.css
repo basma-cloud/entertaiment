@@ -955,7 +955,7 @@ header{
 			position:absolute;
 			display:flex;
 			flex-direction: row;
-			margin-left: -80vw;
+			margin-left: -50vw;
 			margin-top: 22vh;
 			transform: translateY(45vh);
 			width:30vw;
