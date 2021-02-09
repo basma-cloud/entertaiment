@@ -1250,7 +1250,7 @@ media only screen and (max-width: 540px){
 		display:flex;
 		flex-direction: row;
 		margin-left: -80vw;
-		margin-top: 14rem;
+		margin-top: 17rem;
 		transform: translateY(45vh);
 		width:50vw;
 		height: 7vh;
@@ -1280,7 +1280,7 @@ media only screen and (max-width: 540px){
 		height:7vh;
 		border-radius: 50% ;
 		z-index:-1;
-		transform:translateX(160px) ;
+		transform:translateX(159px) ;
 		top.01vh;
 		bottom-.05px;
 		transform translateY(1px);
