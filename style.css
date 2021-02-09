@@ -307,30 +307,30 @@ cursor:pointer;
 }
 .main-logo-container h1{
    position: absolute;
-   font-size: 20px;
+   font-size: 25px;
    font-weight: 200;
    font-family:'Gill Sans',  sans-serif;
    margin-top:41vh ;
-   margin-left :15vw;
+   margin-left :-15vw;
    color:#60d4d8;
    line-height 10vh;
    text-align:center;
 }
 #slogan{
-	margin-top:45vh;
-	margin-left:13vw ;
+	margin-top:48vh;
+	margin-left:-19vw ;
 	text-align: center;
 }
-.zan-logo1{
+#main-logo{
 	positionabsolute ;
 	z-index:999;
 	display none;
 	align-items center;
 	justify-content center;
-	margin-top24vh;
-	margin-left-35vw; 
-	height100vh;
-	width99vw;
+	margin-top:28vh;
+	margin-left:-45vw; 
+	height:30vh;
+	width:99vw;
 	margin-left 35vw;
 	padding-top20rem;
 	background-color #3c57ee;
@@ -1245,7 +1245,7 @@ media only screen and (max-width: 540px){
 		height 7vh;
 	}
 	#main-logo{
-		margin-top: -5vh;
+		margin-top: -10vh;
 		width:60
 	}
 	#slogan{
