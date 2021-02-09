@@ -1250,7 +1250,8 @@ media only screen and (max-width: 540px){
 		margin-left: -63vw;
 	}
 	.social-icons ul{
-		position:absolute;
+		position: fixed;
+		positionabsolute;
 		display:flex;
 		flex-direction: row;
 		margin-left: -80vw;
