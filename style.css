@@ -948,7 +948,7 @@ header{
 			margin-top:60vh ;
 		}
 		#main-logo{
-			position absolute;
+			position :absolute;
 			position absolute;
 			padding-top: 15vh;
 			margin-left :-20vw;
