@@ -931,6 +931,7 @@ header{
 
 	@media only screen and (max-width: 900px){
 		.main-logo-container{
+			position: absolute;
          margin-top: -30vh;
 		 margin-left :-10vw;
 		 width:100vw;
