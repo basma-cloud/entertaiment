@@ -1185,6 +1185,9 @@ media only screen and (max-width: 377px){
 	#button{
 		display:block;
 	}
+	#nav-container{
+		margin-left: 0vw;
+	}
 	#zen-svg{
 		margin-top: 4vh;
 
