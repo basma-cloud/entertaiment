@@ -928,8 +928,11 @@ header{
 		.main-logo-container{
 			margin-left: -20vw;
 			margin-top: -20vh;
+			width: 100vw;
+			height: 80vh;
 			display: flex;
-			justify-content: center;
+			flex-direction: column;
+			align-items: center;
 		}
 		.main-logo-container h1{
 			position: absolute;
@@ -937,7 +940,7 @@ header{
 			font-weight: 200;
 			font-family:'Gill Sans',  sans-serif;
 			margin-top:31vh ;
-			margin-left :-40vw;
+			margin-left -40vw;
 			color:#60d4d8;
 			line-height 10vh;
 			text-align:center;
@@ -945,7 +948,7 @@ header{
 		 #slogan{
 			 position: absolute;
 			 margin-top:8vh;
-			 margin-left:70vw ;
+			 margin-left70vw ;
 			 text-align: center;
 		 }
 		 #main-logo{
