@@ -1259,7 +1259,7 @@ media only screen and (max-width: 540px){
 	}
 	#main-logo{
 		position absolute;
-		padding-top: 32vh;
+		padding-top: 34vh;
 		margin-left: 25vw;
 	}
 	header{
@@ -1406,7 +1406,7 @@ media only screen and (max-width: 540px){
 		background-color: rgb(255, 255, 255);
 	   }
 	.text{
-		margin-top: 0vh;
+		margin-top: -3vh;
 	}
 
 
