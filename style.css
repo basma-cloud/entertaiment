@@ -953,9 +953,9 @@ header{
 			 text-align: center;
 		 }
 		 #main-logo{
-			 position:absolute ;
+			 positionabsolute ;
 			 z-index999;
-			 display:inline;
+			 displayinline;
 			 align-items center;
 			 justify-content center;
 			 margin-top0vh;
