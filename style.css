@@ -952,7 +952,7 @@ header{
 			 margin-left70vw ;
 			 text-align: center;
 		 }
-		 #main-logo{
+		 main-logo{
 			 position:absolute ;
 			 z-index:999;
 			 display:block;
