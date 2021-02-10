@@ -935,7 +935,7 @@ header{
 			font-weight: 200;
 			font-family:'Gill Sans',  sans-serif;
 			margin-top:31vh ;
-			margin-left :-35vw;
+			margin-left :0vw;
 			color:#60d4d8;
 			line-height 10vh;
 			text-align:center;
@@ -943,7 +943,7 @@ header{
 		 #slogan{
 			 position: absolute;
 			 margin-top:8vh;
-			 margin-left:-19vw ;
+			 margin-left:0vw ;
 			 text-align: center;
 		 }
 		 #main-logo{
@@ -952,7 +952,7 @@ header{
 			 display none;
 			 align-items center;
 			 justify-content center;
-			 margin-top:0vh;
+			 margin-top:0git pushvh;
 			 margin-left:-55vw; 
 			 height:30vh;
 			 width:99vw;
