@@ -935,7 +935,10 @@ header{
 		
 		#button{
 			display:block;
-			margin-left: 55vw;
+			margin-left: 65vw;
+		}
+		#nav-container{
+			margin-left: 65vw;
 		}
 		.main-logo-container h1{
 			font-size: 25px;
