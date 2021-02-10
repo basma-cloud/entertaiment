@@ -1275,7 +1275,7 @@ media only screen and (max-width: 540px){
 		margin-top :55vh;
 	}
 	#slogan{
-		position: absolute;
+		positionrelative ;
 		margin-left :-25vh;
 		margin-top:62vh ;
 	}
@@ -1382,6 +1382,7 @@ media only screen and (max-width: 540px){
 		margin-left: 0vw;
 	   }
 	#main-logo{
+		position: static;
 		margin-top: -10vh;
 		width:60
 	}
