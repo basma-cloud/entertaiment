@@ -928,6 +928,8 @@ header{
 		.main-logo-container{
 			margin-left: -20vw;
 			margin-top: -20vh;
+			display: flex;
+			justify-content: center;
 		}
 		.main-logo-container h1{
 			position: absolute;
