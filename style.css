@@ -947,7 +947,7 @@ header{
 			 text-align: center;
 		 }
 		 #main-logo{
-			 positionabsolute ;
+			 position:absolute ;
 			 z-index:999;
 			 display none;
 			 align-items center;
