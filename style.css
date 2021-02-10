@@ -943,7 +943,7 @@ header{
 		#main-logo{
 			position absolute;
 			padding-top: 32vh;
-			margin-left: 25vw;
+			margin-left: 5vw;
 		}
 		.header-menu ul{
 			display: none;
