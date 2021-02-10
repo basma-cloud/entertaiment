@@ -935,6 +935,7 @@ header{
 		
 		#button{
 			display:block;
+			margin-left: 50vw;
 		}
 		.main-logo-container h1{
 			font-size: 25px;
