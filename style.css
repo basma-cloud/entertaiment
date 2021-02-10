@@ -933,19 +933,19 @@ header{
 		.main-logo-container h1{
 			position: absolute;
 			font-size: 25px;
-			margin-left: -50vw;
+			margin-left -50vw;
 			margin-top :55vh;
 		}
 		#slogan{
 			position: absolute;
-			margin-left :-45vh;
+			margin-left -45vh;
 			margin-top:60vh ;
 		}
 		#main-logo{
 			position :absolute;
 			position absolute;
 			padding-top: 32vh;
-			margin-left: -25vw;
+			margin-left -25vw;
 		}
 		.header-menu ul{
 			display: none;
