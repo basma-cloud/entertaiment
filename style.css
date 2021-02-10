@@ -938,7 +938,7 @@ header{
 		.main-logo-container h1{
 			position: absolute;
 			font-size: 25px;
-			margin-left :-48vw;
+			margin-left -48vw;
 			margin-top :55vh;
 		}
 		#slogan{
