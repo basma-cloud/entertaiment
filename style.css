@@ -931,7 +931,8 @@ header{
 
 	@media only screen and (max-width: 900px){
 		.main-logo-container{
-         margin-top: -15vh;
+         margin-top: -30vh;
+		 margin-left: -30vw;
 		}
 		.main-logo-container h1{
 			position: absolute;
@@ -1360,6 +1361,10 @@ media only screen and (max-width: 540px){
 	header{
 		height 7vh;
 	}
+	.main-logo-container{
+		margin-top: 0vh;
+		margin-left: 0vw;
+	   }
 	#main-logo{
 		margin-top: -10vh;
 		width:60
