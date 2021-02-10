@@ -937,7 +937,8 @@ header{
 			text-align:center;
 		 }
 		 #slogan{
-			 margin-top:28vh;
+			 position: absolute;
+			 margin-top:8vh;
 			 margin-left:-19vw ;
 			 text-align: center;
 		 }
