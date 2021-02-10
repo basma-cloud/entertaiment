@@ -944,14 +944,14 @@ header{
 		}
 		#slogan{
 			position: absolute;
-			margin-left :-65vw;
+			margin-left :0vw;
 			margin-top:60vh ;
 		}
 		#main-logo{
 			position :absolute;
 			position absolute;
 			padding-top: 15vh;
-			margin-left :-20vw;
+			margin-left :-50vw;
 		}
 		.header-menu ul{
 			display: none;
