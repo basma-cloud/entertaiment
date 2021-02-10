@@ -933,6 +933,7 @@ header{
 		.main-logo-container{
          margin-top: -30vh;
 		 margin-left: -30vw;
+		 width:100%;
 		}
 		.main-logo-container h1{
 			position: absolute;
