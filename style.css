@@ -952,10 +952,10 @@ header{
 			 margin-left70vw ;
 			 text-align: center;
 		 }
-		 main-logo{
+		 #main-logo{
 			 position:absolute ;
 			 z-index999;
-			 displayblock;
+			 display:inline;
 			 align-items center;
 			 justify-content center;
 			 margin-top0vh;
