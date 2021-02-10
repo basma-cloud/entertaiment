@@ -1255,7 +1255,7 @@ media only screen and (max-width: 540px){
 	#slogan{
 		position: absolute;
 		margin-left :-35vh;
-		margin-top:60vh ;
+		margin-top:62vh ;
 	}
 	#main-logo{
 		position absolute;
@@ -1406,7 +1406,7 @@ media only screen and (max-width: 540px){
 		background-color: rgb(255, 255, 255);
 	   }
 	.text{
-		margin-top: 5vh;
+		margin-top: 0vh;
 	}
 
 
