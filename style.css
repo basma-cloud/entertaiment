@@ -930,6 +930,9 @@ header{
 	}
 
 	@media only screen and (max-width: 900px){
+		.main-logo-container{
+         margin-top: 15vh;
+		}
 		.main-logo-container h1{
 			position: absolute;
 			font-size: 25px;
@@ -944,7 +947,7 @@ header{
 		#main-logo{
 			position absolute;
 			position absolute;
-			padding-top: 32vh;
+			padding-top: 15vh;
 			margin-left :-35vw;
 		}
 		.header-menu ul{
