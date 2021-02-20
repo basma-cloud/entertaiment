@@ -366,7 +366,7 @@ video{
 	filter:saturate(100%);
 	transform :translateY(-215rem);
 	transformtranslateX(-180rem);
-	margin-top -100rem;
+	margin-top -80rem;
 	align-self flex-start ;
 	margin-right -40px;
 	scale-10;
@@ -375,8 +375,8 @@ video{
     min-height: 100%;
     position: absolute;
     left: 50%;
-    top: 50%;
-	transform: translate(-50%, -50%);*/
+    top: 50%;*/
+	transform: translateY(-250rem);
 	
 }
 cover{
@@ -387,27 +387,38 @@ cover{
 	margin-left 2.5vw;
 }
 .about-section{
-	height: 50vh;
+	height: 120vh;
 	width: 99vw;
+	margin0 auto;
+	margin-top50vh;
 	align-self center;
 	background-color:#222327;
 	display: flex;
 	flex-direction:column;
-    align-items: center;
-	justify-content:center;
+    align-items:center;
+	justify-content: center;
 	font-size: 20px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	text-align: center;
+	text-align left;
 }
 .about-section .title{
-	font-size:30px;
+	font-size:70px;
+	margin-left: -50vw;
 	margin-bottom 1em;
+	justify-self:  left;
 	color:#fff;
 }
 .about-section p{
-	width :60vw;
-	color: #ececec;
+	width :40vw;
+	color: #e6e6e6;
+	line-height: 28px;
+	font-size: 1rem;
 	height25vh;
+	color: #ffffff;
+	margin-left: -33vw;
+}
+.about-section span{
+	font-weight:800;
 }
 .circle{
 	position: absolute;
@@ -420,7 +431,7 @@ cover{
 	;
 	border-radius: 50%;
 	margin-top: 1.5rem;
-	margin-left: -85rem;
+	margin-left :-90rem;
 	z-index:5;
 }
 .services-section {
@@ -738,7 +749,7 @@ picture4 .subtitle{
 	position :absolute;
 	display:flex;
 	justify-content: center;
-	margin-top: 200rem;
+	margin-top: 230rem;
 	width:99vw;
 	height:45rem;
 	z-index:1px;
