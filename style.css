@@ -386,7 +386,7 @@ cover{
 	width:100%;
 	margin-left 2.5vw;
 }
-.about-section{
+.about-us{
 	height: 120vh;
 	width: 99vw;
 	margin0 auto;
@@ -402,8 +402,10 @@ cover{
 	text-align left;
 }
 .about-section .title{
-	font-size:70px;
-	margin-left: -50vw;
+	font-size:80px;
+	font-weight: 500;
+	font-family: sans-serif;
+	margin-left: -55vw;
 	margin-bottom 1em;
 	justify-self:  left;
 	color:#fff;
@@ -411,11 +413,11 @@ cover{
 .about-section p{
 	width :40vw;
 	color: #e6e6e6;
-	line-height: 28px;
-	font-size: 1rem;
+	line-height: 25px;
+	font-size: .95rem;
 	height25vh;
-	color: #ffffff;
-	margin-left: -33vw;
+	color #ffffff;
+	margin-left: -38vw;
 }
 .about-section span{
 	font-weight:800;
