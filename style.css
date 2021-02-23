@@ -386,6 +386,11 @@ cover{
 	width:100%;
 	margin-left 2.5vw;
 }
+.about-section{
+	display: grid;
+	grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
+	grid-gap:15rem;
+}
 .about-us{
 	height: 120vh;
 	width: 99vw;
@@ -401,26 +406,29 @@ cover{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-align left;
 }
-.about-section .title{
-	font-size:80px;
+.about-us .title{
+	font-size:100px;
 	font-weight: 500;
 	font-family: sans-serif;
 	margin-left: -55vw;
-	margin-bottom 1em;
+	margin-bottom :2rem;
+	margin-top: -5rem;
 	justify-self:  left;
 	color:#fff;
 }
-.about-section p{
-	width :40vw;
+.about-us p{
+	width :42vw;
 	color: #e6e6e6;
-	line-height: 25px;
+	line-height: 26px;
 	font-size: .95rem;
 	height25vh;
 	color #ffffff;
-	margin-left: -38vw;
+	margin-left: -42vw;
 }
-.about-section span{
-	font-weight:800;
+.about-us span{
+	font-weight:1000;
+	color: #ffffff;
+	font-size: .97rem;;
 }
 .circle{
 	position: absolute;
@@ -432,7 +440,8 @@ cover{
 	
 	;
 	border-radius: 50%;
-	margin-top: 1.5rem;
+	transform:translateY(-15rem);
+	margin-top: -1.5rem;
 	margin-left :-90rem;
 	z-index:5;
 }
@@ -467,7 +476,7 @@ cover{
 	justify-content center;
 	display: grid;
 	grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
-	grid-gap:.8rem;
+	grid-gap:.6rem;
 	row-gap: 40px;
 	column-gap: 0px;
 	justify-items: center;
