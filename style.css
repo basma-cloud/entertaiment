@@ -316,6 +316,13 @@ cursor:pointer;
    line-height 10vh;
    text-align:center;
 }
+#we-zan{
+	font-size:22.5px;
+	margin-left:-16vw;
+}
+#we-zan span{
+	font-weight: 500;
+}
 #slogan{
 	margin-top:48vh;
 	margin-left:-19vw ;
