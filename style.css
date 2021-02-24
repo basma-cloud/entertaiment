@@ -4,20 +4,18 @@ body{
     font-size:10px;
     background-color: #222327;
     margin:0px;
-	display:flex ;
-	flex-direction:column;
-	margin-top -10rem;
+	
 }
 header{
-	position relative;
+
 	position:fixed;
 	display: flex;
-	justify-content center;
-	margin-top 1rem;
+	
+	
 	height: 11vh;
 	width:99vw;
 	z-index: 999;
-	background-color#222327;
+	
 
 }
 .grey{
@@ -25,8 +23,7 @@ header{
 }
 
 .zan-logo{
-	width10rem;
-	height5rem;
+	
 	display :none;
 	margin-left:1.6rem;
 	margin-top: .5vh;
@@ -43,16 +40,14 @@ header{
 	font-family:'Gill Sans',  sans-serif;
 	font-weight: 500;
 	margin-left :-4vw;
-	margin-top 3vh;
+
 	margin-top: 1.7vh ;
 	margin-left: -4vw;
-	height 10vh;
-	width99vw;
 	
 }
 .header-menu li{
 	position: relative;
-	width 100px;
+	
 	height50px;
 	cursor: pointer;
 	margin-right:.5vw;
@@ -62,9 +57,9 @@ header{
 	text-align: center;
 }
 .header-menu li:hover{
-	transform scale(1.1);
+	
 	color: #fff;
-	background-colorwhite;
+	
 	transition: .6s;
 
 }
@@ -72,7 +67,6 @@ header{
 content: '';
 display:block;
 margin: 0 auto;
-position relative;
 height: .05rem;
 width:7rem;
 margin-bottom: 3vh;
@@ -100,12 +94,9 @@ box-shadow:0 0 10px rgba(128, 244, 248, 0.5),
 	margin-left: 1.2vw;
 	margin-bottom: 3vh;
 	cursor: pointer;
-	box-shadow0 0 2px #222327;
-}
-.social-icons li svg{
 	
-	box-shadow0 0 2px #222327;
 }
+
 .social-icons li:hover{
 	transform: scale(1.2);
 	transition: .3s;
@@ -114,26 +105,18 @@ box-shadow:0 0 10px rgba(128, 244, 248, 0.5),
 	position:fixed;
 	top:13vh;
 	z-index:999;
-	left 5vw;
-    margin-3em;
-	margin-right -10em;
-	justify-self center;
+
 }
 #button{
-	z-index999;
-    font-size80px;
+
     margin-top:-2em;
-    positionabsolute;
-    background-colorgreen;
+   
     display:none;
-    width40px; 
-    height30px;
+   
     z-index: 999;
-    display inline;
+   
     position: fixed;
-    top4cm;
-	width 100%;
-	margin -2.2em auto 0 0.2em;
+   
 	-webkit-transition: margin 600ms;
 	-moz-transition: margin 600ms;
 	transition: margin 600ms;
@@ -161,7 +144,7 @@ box-shadow:0 0 10px rgba(128, 244, 248, 0.5),
 		-webkit-transition: opacity 300ms;
 		-moz-transition: opacity 300ms;
         transition: opacity 300ms;
-        transform translateY(20px);
+        
 
 	}
 	#button .bar:nth-of-type(2) {
@@ -170,14 +153,11 @@ box-shadow:0 0 10px rgba(128, 244, 248, 0.5),
 		-ms-transform: rotate(-90deg);
 		-o-transform: rotate(-90deg);
         transform: rotate(-180deg);
-        transform translateY(20px);
+        
 	}
 
 /*pushed*/
-.pushed #button {
-    
-	margin 3.2em 0 0 0em;
-}
+
 
 	.pushed .bar:nth-of-type(1) {
         
@@ -239,30 +219,25 @@ box-shadow:0 0 10px rgba(128, 244, 248, 0.5),
 	display: none;
 	width:100%;
     margin-top :8vh;
-	margin-left 1cm;
 	z-index:900;
-    margin-right-50px;
+    
 }
 #main-menu{
-	background#6A7FDB;
-	/*background: rgb(126,0,33,.1);*/
-    /*background: linear-gradient(90deg, hsl(345, 85%, 53%,.9),rgba(254,93,38,.9) 100%);*/
+	
+   
 	background: linear-gradient(90deg, rgb(50, 65, 151,.9),rgb(80, 178, 181,.9) 100%);
-	/*background: rgb(106,127,219);
-background: linear-gradient(90deg, rgba(106,127,219,1) 0%, rgba(124,143,224,1) 100%);*/
-    background #7e0021;
-   /* background: linear-gradient(90deg, rgba(126,0,33,1) 0%, #d60155 31%, rgba(251,4,144,1) 57%, #f30484 69%, rgba(220,2,95,1) 84%, rgba(185,1,70,1) 100%);
-	*/position fixed;
-	z-index-5;
+	
+   
+	
     height:80vh;
 	width: 95vw;
-	left-2.5vw;
+	
     border-radius:1%; 
     display:flex; 
     justify-content:center; 
 	align-items:center; 
 	margin-top:1.6em;
-	z-index900;
+	
 }
 #main-menu ul{
 	font-size:40px; 
@@ -285,23 +260,22 @@ color:#12705c;
 cursor:pointer;
 }
 .welcome-section{
-	displayflex;
-	flex-direction column;
+	
 	height: 100vh;
 	width:100%;
 	margin-left :2.5vw;
 
 }
 .main-logo-container{
-	displaynone;
+	
 	position :absolute;
 	display: flex;
 	justify-content: center;
 	overflow: hidden;
-	align-itemscenter;
+	
 	width: 99vw;
 	height: 100vh;
-	background-color#3c57ee;
+	
 	text-align: center;
 	margin-right20vw;
 }
@@ -313,7 +287,7 @@ cursor:pointer;
    margin-top:41vh ;
    margin-left :-15vw;
    color:#60d4d8;
-   line-height 10vh;
+   
    text-align:center;
 }
 #we-zan{
@@ -329,19 +303,14 @@ cursor:pointer;
 	text-align: center;
 }
 #main-logo{
-	positionabsolute ;
+	
 	z-index:999;
-	display none;
-	align-items center;
-	justify-content center;
+	
 	margin-top:28vh;
 	margin-left:-45vw; 
 	height:30vh;
 	width:99vw;
-	margin-left 35vw;
-	padding-top20rem;
-	background-color #3c57ee;
-	padding-left 50vw;
+
 }
 
 .hide-main-titles{
@@ -361,22 +330,19 @@ video{
 	min-height:100vh ;
 	margin-left -2rem;
 	opacity:.2;*/
-	displayblock;
+	
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	width:99vw;
 	height: 50rem;
-	overflowhidden;
+	
 	z-index:-1;
 	opacity: .05;
 	filter:saturate(100%);
 	transform :translateY(-215rem);
-	transformtranslateX(-180rem);
-	margin-top -80rem;
-	align-self flex-start ;
-	margin-right -40px;
-	scale-10;
+	
+	
 	object-fit:fill;
 	/*min-width: 100%;
     min-height: 100%;
@@ -386,13 +352,7 @@ video{
 	transform: translateY(-250rem);
 	
 }
-cover{
-	position:absolute;
-	position relative;
-	height: 100vh;
-	width:100%;
-	margin-left 2.5vw;
-}
+
 .about-section{
 	display: grid;
 	grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
@@ -401,9 +361,7 @@ cover{
 .about-us{
 	height: 120vh;
 	width: 99vw;
-	margin0 auto;
-	margin-top50vh;
-	align-self center;
+	
 	background-color:#222327;
 	display: flex;
 	flex-direction:column;
@@ -428,8 +386,7 @@ cover{
 	color: #e6e6e6;
 	line-height: 26px;
 	font-size: .95rem;
-	height25vh;
-	color #ffffff;
+
 	margin-left: -42vw;
 }
 .about-us span{
@@ -457,10 +414,10 @@ cover{
 	background-color:#222327;
 	width: 99vw;
 	display:flex;
-	align-items center;
+
 	justify-content: center;
 	font-size:30px;
-	margin-top -.5px;
+	
 	font-family: sans-serif;
 	font-weight: bolder;
 	position: relative;
@@ -471,7 +428,7 @@ cover{
 	font-size: 25px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
-	margin-top 5em;
+	
 	color:#fff;
 
 }
@@ -480,7 +437,7 @@ cover{
 	height:11rem;
 	width: 99vw;
 	background-color: #222327;
-	justify-content center;
+	
 	display: grid;
 	grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
 	grid-gap:.6rem;
@@ -492,13 +449,11 @@ cover{
 }
 .services-section-continue .card{
 	position: relative;
-	align-self flex-end;
+	
 	overflow: hidden;
 	height:22rem;
 	width:18rem;
 	background-color: #ffffff;
-	box-shadow inset 0 0 2000px rgba(255, 255, 255, .5);
-    filter blur(10px);
 	margin-top: -12rem;
 	margin-bottom: 11rem;
 	box-shadow:20px -5px 30px rgb(0, 0, 0)
@@ -554,8 +509,7 @@ cover{
 	margin-left: -2rem;
 	margin-top: -.5rem;
 	text-align: center;
-	display flex;
-	flex-direction column;
+	
 	
 
 }
@@ -574,31 +528,26 @@ font-weight: 600;
 	z-index: 3;
 }
 
-.services-section-continue .management{
-	background-color#FE5D26 ;
-}
+
 .our-work{
 	position:relative;
-	height 132rem;
+	
 	width: 80vw;
 	display:flex;
 	flex-direction:column;
 	margin-left:10vw;
-	overflow:hidden;
-	justify-contentcenter;	
+	overflow:hidden;	
 	align-items: center;
 	margin-top:5rem;
 	padding-top:4.5rem;
-	background-coloraqua;
+	
 	
 }
 .our-work .title{
 	color:white;
 	font-size: 30px;
 	margin-bottom: 3rem;
-	justify-self center;
-	displayflex;
-	flex-directioncolumn;
+	
 }
 .picture-class{
 	width: 100%;
@@ -633,7 +582,6 @@ font-weight: 600;
  
 
 .picture1{
-	margin-left 3rem;
 	width:100%;
 	display: flex;
 	flex-direction: row;
@@ -650,23 +598,13 @@ font-weight: 600;
 	margin-top: -2rem;
 }
 .picture1 .title {
-	display flex;
-	flex-direction column;
-    margin-bottom 2rem;
+
 	height :5%;
 	font-family:sans-serif;
 
 }
-picture1 .subtitle{
-	height1%;
-	margin-top: -2rem;
-	font-size 22px;
-	font-family:sans-serif;
-    color:rgb(241, 241, 241);
-}
-.picture1 p{
-	margin-top 3rem;
-}
+
+
 .picture2{
 	display: flex;
 	flex-direction:row-reverse;
@@ -685,19 +623,12 @@ picture1 .subtitle{
 	font-family:sans-serif;
 	margin-top: -2rem;
 }
-.picture2 p{
 
-}
 .picture2 .title{
 	height :5%;
 	font-family:sans-serif;
 }
-picture2 .subtitle{
-	margin-top: -2rem;
-	font-size: 22px;
-	font-family:sans-serif;
-    color:rgb(241, 241, 241);
-}
+
 .picture2 img{
 	margin-left:2rem;
 }
@@ -713,26 +644,17 @@ margin-top: 4rem;
 	width:40%;
 	margin-left: 1.5rem;
 	color:white;
-	display flex;
-	flex-direction column;
+	
 	font-family:sans-serif;
 	margin-top: -2rem;
 }
 .picture3 .title {
-	display flex;
-	flex-direction column;
-    margin-bottom 2rem;
+	
 	height :5%;
 	font-family:sans-serif;
 
 }
-picture3 .subtitle{
-	height1%;
-	margin-top: -2rem;
-	font-size: 22px;
-	font-family:sans-serif;
-    color:rgb(241, 241, 241);
-}
+
 .picture4{
 	display:flex;
 	flex-direction: row-reverse;
@@ -744,8 +666,7 @@ picture3 .subtitle{
 	width:40%;
 	margin-left: 1.5rem;
 	color:white;
-	display flex;
-	flex-direction column;
+
 	font-family:sans-serif;
 	margin-top: -2rem;
 }
@@ -780,7 +701,7 @@ footer{
 	height: 30vh;
 	width:99vw;
 	margin-top: 50rem;
-	padding-bottom 5rem;
+	
 }
 footer h1{
    font-size: 30px;
@@ -886,21 +807,11 @@ animations
 	-ms-transform: translate(0px, 0px);
 	transform: translate3d(0px, 0px, 0px); 
   }
-card-logo{
-	transformscale3d(-5) ;
-}
-scale-icons{
-	transform :scale(1.9);
-	transition:.5s;
-}
+
   
 @media only screen and (max-width: 800px) {
-	.about-section p {
-		width 80vw;
-	}
-	.about-section{
-		height85vh;
-	}
+
+	
 	#main-menu ul{
 		text-align :center; 
 		margin-left: -2.5rem;
@@ -912,10 +823,7 @@ scale-icons{
 	.our-work{
 		margin-top:24rem ;
 	}
-	picture1{
-		flex-direction:column;
-		margin-left: 0rem;
-	}
+	
 	.text{
 		width:100%;
 	}
@@ -923,9 +831,9 @@ scale-icons{
 		
 		min-width :100vw;
 		height:120vh;
-		left-63rem;
+		
 		overflow:visible;
-		object-fit contain;
+		
 		transform :translateY(-430rem);
 	}
 	.contact-section{
@@ -945,23 +853,17 @@ header{
 	video{
 		transform: translateY(-290rem);
 	}
-	  }
-	  .social-icons ul{
-		display none;
-		list-style none;
-		margin-top10vh;
-		margin-left 30vw;
-	}
+	  
+	 
 
 	@media only screen and (max-width: 900px){
 		main-logo-container{
 			position: relative;
-			margin-left -20vw;
+			
 			margin-top: -20vh;
 			width: 100vw;
 			height: 80vh;
-			display flex;
-			flex-direction column;
+		
 			align-items:center;
 		}
 		.main-logo-container h1{
@@ -969,10 +871,10 @@ header{
 			font-size: 25px;
 			font-weight: 200;
 			font-family:'Gill Sans',  sans-serif;
-			margin-top31vh ;
+			
 			margin-left :80vw;
 			color:#60d4d8;
-			line-height 10vh;
+			
 			text-align:center;
 		 }
 		 slogan{
@@ -982,19 +884,12 @@ header{
 			 text-align: center;
 		 }
 		 #main-logo{
-			 positionabsolute ;
-			 z-index999;
-			 displayinline;
-			 align-items center;
-			 justify-content center;
-			 margin-top0vh;
+			
+			
+			 
 			 margin-left:-80vw; 
-			 height30vh;
-			 width99vw;
-			 margin-left 35vw;
-			 padding-top20rem;
-			 background-color #3c57ee;
-			 padding-left 50vw;
+			
+			
 		 }
 		.header-menu ul{
 			display: none;
@@ -1018,7 +913,7 @@ header{
 			margin-top:60vh ;
 		}
 		#main-logo{
-			position absolute;
+			
 			padding-top: 32vh;
 			margin-left: 25vw;
 		}
@@ -1031,10 +926,9 @@ header{
 			transform: translateY(45vh);
 			width:30vw;
 			height: 14vh;
-			text-align center;
-			colorgrey;
+			
 			background-color: rgb(255, 255, 255);
-			border-radius 50% 50% 50% 50%;
+			
 		}
 		.social-icons ul::before{
 		 position: absolute;
@@ -1044,9 +938,7 @@ header{
 		 border-radius: 50% ;
 		 transform:translateX(-60px) ;
 		 top:0px;
-		 bottom10vh;
-		 transform translateY(-5px);
-		 margin-right 30px;
+		
 		 background-color: rgb(255, 255, 255);
 		}
 	
@@ -1059,16 +951,12 @@ header{
 		 z-index:-1;
 		 transform:translateX(190px) ;
 		 bottom:0px;
-		 transform translateY(-5px);
-		 margin-right 30px;
+		 
 		 background-color: rgb(255, 255, 255);
 		}
-		.social-icons li{
-			border-right #2c2d2f solid 1px;
-		}
+		
 		#facebook path, #instagram path,#twitter path{
-			positionrelative;
-			background-color rgb(146, 146, 146);
+			
 			fill:#2c2d2f;
 			
 		}
@@ -1079,7 +967,7 @@ header{
 			width:25px;
 			height:25px;
 			margin-top: 8px;
-			border-right #2c2d2f solid 1px;
+			
 		}
 		#button{
 		   margin-top: -11vh;
@@ -1103,10 +991,10 @@ header{
 	}
 	.picture1{
 		flex-direction:column;
-		margin-left 0rem;
+		
 	}
 	.picture1 img{
-		justify-self center;
+		
 		width:100%;
 	}
 	.picture1 .text{
@@ -1170,18 +1058,16 @@ header{
 		
 		min-width :100vw;
 		height:120vh;
-		left-63rem;
+		
 		overflow:visible;
-		object-fit contain;
+		
 		z-index: 5;
 		transform: translateY(-390rem);
 	}
 	.contact-section{
 		margin-top :290rem;
 	}
-	.our-work{
-		height95rem;
-	}
+	
 	.social-icons ul{
 		display: flex;
 		list-style: none;
@@ -1190,13 +1076,6 @@ header{
 	}
 }
 
-media only screen and (max-width: 425px){
-	equipment{
-		margin-left60px;
-	}
-	our-work{
-		margin-top:50rem ;
-	}
 	#main-menu ul{
 		text-align :center; 
 		font-size: 40px;
@@ -1213,11 +1092,7 @@ media only screen and (max-width: 425px){
 		margin-top :290rem;
 	}
 }
-media only screen and (max-width: 377px){
-	header {
-       height: 19vh;
-	}
-}
+
 @media only screen and (max-width: 420px){
 	.contact-section{
 		margin-top :290rem;
@@ -1226,9 +1101,6 @@ media only screen and (max-width: 377px){
 	.contract__formLeft h1{
 		font-size: 35px;
 	}	
-	header{
-		height9vh;
-	}
 
     .header-menu ul{
 		display: none;
@@ -1244,41 +1116,12 @@ media only screen and (max-width: 377px){
 		margin-top: 4vh;
 
 	}
-	.social-icons{
-		margin-left -5vw;
-		margin-top 1vh;
-	}
-	.social-icons li{
-		margin-right -1vw;
-	}
+
 }
 
 
-media only screen and (max-width: 376px){
-	.contact-section{
-		margin-top :315rem;
-	}
-}
-media only screen and (max-width: 340px){
-	video{
-		min-width :100vw;
-		height:120vh;
-		left-63rem;
-		overflow:visible;
-		object-fit contain;
-		transform :translateY(-200rem);
-		}
-}
-media only screen and (max-width: 540px){
-	video{
-		min-width :100vw;
-		height:120vh;
-		left-63rem;
-		overflow:visible;
-		object-fit contain;
-		transform :translateY(-210rem);
-		}
-}
+
+
 @media only screen and (max-width: 680px){
 	.main-logo-container h1{
 		font-size: 40px;
@@ -1304,12 +1147,12 @@ media only screen and (max-width: 540px){
 		margin-top :55vh;
 	}
 	#slogan{
-		positionrelative ;
+		
 		margin-left :-25vh;
 		margin-top:62vh ;
 	}
 	#main-logo{
-		position absolute;
+		
 		padding-top: 34vh;
 		margin-left: 25vw;
 	}
@@ -1322,13 +1165,11 @@ media only screen and (max-width: 540px){
 		margin-left: -4vw;
 		margin-top:6.5vh ;
 	}
-	header{
-        height 5rem;
-	}
+	
 	.icon{
 		width: 15px;
 		margin-left: .7rem;
-		margin-top 1rem;
+		
 	}
 	
 	.social-icons ul{
@@ -1340,10 +1181,9 @@ media only screen and (max-width: 540px){
 		transform: translateY(45vh);
 		width:50vw;
 		height: 7vh;
-		text-align center;
-		colorgrey;
+	
 		background-color: rgb(255, 255, 255);
-		border-radius 50% 50% 50% 50%;
+		
 	}
 	.social-icons ul::before{
 	 position: absolute;
@@ -1353,9 +1193,7 @@ media only screen and (max-width: 540px){
 	 border-radius: 50% ;
 	 transform:translateX(-60px) ;
 	 top:0px;
-	 bottom10vh;
-	 transform translateY(-5px);
-	 margin-right 30px;
+	
 	 background-color: rgb(255, 255, 255);
 	}
 
@@ -1368,19 +1206,11 @@ media only screen and (max-width: 540px){
 	 z-index:-1;
 	 transform:translateX(160px) ;
 	 bottom:0px;
-	 transform translateY(-5px);
-	 margin-right 30px;
+
 	 background-color: rgb(255, 255, 255);
 	}
-	.social-icons li{
-		border-right #2c2d2f solid 1px;
-	}
-	#facebook path, #instagram path,#twitter path{
-		positionrelative;
-		background-color rgb(146, 146, 146);
-		fill:#2c2d2f;
-		
-	}
+	
+	
 	#facebook , #instagram ,#twitter {
 		position: relative;
 		margin-right: 40px;
@@ -1388,7 +1218,7 @@ media only screen and (max-width: 540px){
 		width:25px;
 		height:25px;
 		margin-top: 8px;
-		border-right #2c2d2f solid 1px;
+		
 	}
 	#button{
        margin-top: -11vh;
@@ -1402,10 +1232,7 @@ media only screen and (max-width: 540px){
 
 }
 @media only screen and (max-width: 375px){
-	
-	header{
-		height 7vh;
-	}
+
 	.main-logo-container{
 		margin-top: 0vh;
 		margin-left: 0vw;
@@ -1420,7 +1247,7 @@ media only screen and (max-width: 540px){
 	}
 	.social-icons ul{
 		position: sticky;
-		positionabsolute;
+		
 		display:flex;
 		flex-direction: row;
 		margin-left: -80vw;
@@ -1428,10 +1255,9 @@ media only screen and (max-width: 540px){
 		transform: translateY(45vh);
 		width:50vw;
 		height: 7vh;
-		text-align center;
-		colorgrey;
+		
 		background-color: rgb(255, 255, 255);
-		border-radius 50% 50% 50% 50%;
+		
 	}
 	.social-icons ul::before{
 		position: absolute;
@@ -1441,9 +1267,7 @@ media only screen and (max-width: 540px){
 		border-radius: 50% ;
 		transform:translateX(-60px) ;
 		top:0px;
-		bottom10vh;
-		transform translateY(-5px);
-		margin-right 30px;
+	
 		background-color: rgb(255, 255, 255);
 	   }
    
@@ -1455,10 +1279,7 @@ media only screen and (max-width: 540px){
 		border-radius: 50% ;
 		z-index:-1;
 		transform:translateX(159px) ;
-		top.01vh;
-		bottom-.05px;
-		transform translateY(1px);
-		margin-right 30px;
+	
 		background-color: rgb(255, 255, 255);
 	   }
 	.text{
@@ -1467,11 +1288,7 @@ media only screen and (max-width: 540px){
 
 
 }
-@media only screen and (max-width: 310px){
-	.main-logo-container h1{
-		font-siz 17px;
-	}
-}
+
 @media only screen and (max-width: 700px){
 	#main-logo{
 		width: 50vw;
@@ -1485,19 +1302,11 @@ media only screen and (max-width: 540px){
 	
 
 
-@media only screen and (max-width: 500px){
-	#main-logo{
-		width 65vw;
-	}
-}
-
 @media only screen and (max-width: 380px){
 	video{
 		min-width :100vw;
 		height:120vh;
-		left-63rem;
 		overflow:visible;
-		object-fit contain;
 		transform :translateY(-390rem);
 		}
 		.contact-section{
