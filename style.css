@@ -351,7 +351,7 @@ video{
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	width:95vw;
+	width:99vw;
 	height: 100vh;
 	
 	z-index:-1;
@@ -922,34 +922,17 @@ header{
 			margin-left: -65vw;
 			margin-top: 35vh;
 			transform: translateY(45vh);
-			width:30vw;
-			height: 14vh;
+			width:25vw;
+			height: 3rem;
 			background-color: rgb(255, 255, 255);
-			
+			border-radius: 150px;
 		}
 		.social-icons ul::before{
-		 position: absolute;
-		 content: "";
-		 width:48px;
-		 height:47px;
-		 border-radius: 50% ;
-		 transform:translateX(-60px) ;
-		 top:0px;
-		 
-		 background-color: rgb(255, 255, 255);
+			box-sizing: border-box;
 		}
 	
 		.social-icons ul::after{
-		 position: absolute;
-		 content: "";
-		 width:50px;
-		 height:47px;
-		 border-radius: 50% ;
-		 z-index:-1;
-		 transform:translateX(190px) ;
-		 bottom:0px;
-		
-		 background-color: rgb(255, 255, 255);
+			box-sizing: border-box;
 		}
 		
 		#facebook path, #instagram path,#twitter path{
@@ -1054,12 +1037,12 @@ header{
 	video{
 		
 		min-width :100vw;
-		height:120vh;
+		height:100vh;
 		
 		overflow:visible;
 		
 		z-index: 5;
-		transform: translateY(-370rem);
+		transform: translateY(-380rem);
 	}
 	
 	
@@ -1109,7 +1092,7 @@ header{
 }
 @media only screen and (max-width: 420px){
 	.main-logo-container{
-		margin-top: 17vh;
+		margin-top: 15vh;
 	}
 	.text1{
 		transform:translateY(-5vh);
@@ -1145,37 +1128,21 @@ header{
 		display:flex;
 		flex-direction: row;
 		margin-left: -80vw;
-		margin-top: 45vh;
+		margin-top: 15vh;
 		transform: translateY(45vh);
 		width:50vw;
 		height: 7vh;
 		
 		background-color: rgb(255, 255, 255);
+		border-radius: 150px; 
+
 		
 	}
 	.social-icons ul::before{
-	 position: absolute;
-	 content: "";
-     width:48px;
-	 height:46px;
-	 border-radius: 50% ;
-	 transform:translateX(-60px) ;
-	 top:0px;
-	 
-	 background-color: rgb(255, 255, 255);
+		box-sizing: border-box;
 	}
-
 	.social-icons ul::after{
-	 position: absolute;
-	 content: "";
-     width:50px;
-	 height:47px;
-	 border-radius: 50% ;
-	 z-index:-1;
-	 transform:translateX(160px) ;
-	 bottom:0px;
-	
-	 background-color: rgb(255, 255, 255);
+		box-sizing: border-box;
 	}
 	
 	#facebook path, #instagram path,#twitter path{
@@ -1223,28 +1190,11 @@ header{
 		
 	}
 	.social-icons ul::before{
-		position: absolute;
-		content: "";
-		width:7vh;
-		height:7vh;
-		border-radius: 50% ;
-		transform:translateX(-60px) ;
-		top:0px;
-		
-		background-color: rgb(255, 255, 255);
+		box-sizing: border-box;
 	   }
    
 	   .social-icons ul::after{
-		position: absolute;
-		content: "";
-		width:7vh;
-		height:7vh;
-		border-radius: 50% ;
-		z-index:-1;
-		transform:translateX(159px) ;
-		
-		
-		background-color: rgb(255, 255, 255);
+		box-sizing: border-box;
 	   }
 	.text{
 		margin-top: -3vh;
