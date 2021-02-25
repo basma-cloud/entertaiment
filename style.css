@@ -1069,7 +1069,9 @@ header{
 	.contract__formLeft h1{
 		font-size: 35px;
 	}	
-	
+	.about-us{
+		margin-top: 3rem;
+	}
    .about-section{
 	   padding-top: 5rem;
 
