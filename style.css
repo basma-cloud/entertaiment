@@ -4,8 +4,7 @@ body{
     font-size:10px;
     background-color: #222327;
     margin:0px;
-	display:flex ;
-	flex-direction:column;
+	
 	
 }
 header{
@@ -57,7 +56,7 @@ header{
 	text-align: center;
 }
 .header-menu li:hover{
-	
+	color:white;
 	transition: .6s;
 
 }
@@ -138,7 +137,7 @@ box-shadow:0 0 10px rgba(128, 244, 248, 0.5),
 		-webkit-transition: opacity 300ms;
 		-moz-transition: opacity 300ms;
         transition: opacity 300ms;
-        transform translateY(20px);
+       
 
 	}
 	#button .bar:nth-of-type(2) {
@@ -267,13 +266,23 @@ cursor:pointer;
 	position :absolute;
 	display: grid;
 	grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
-	gap: 5vh;
+
 	justify-items: center;
 	align-items: center;
 	overflow: hidden;
-	width: 95vw;
+	width: 80vw;
 	height :100vh;
-	margin-left:3vw;
+	margin-left:10vw;
+	
+}
+.text1{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+	height: 20vh;
+	width:100%;
+	
 }
 .main-logo-container h1{
    position: absolute;
@@ -285,13 +294,18 @@ cursor:pointer;
 }
 #we-zan{
 	font-size:22.5px;
-	margin-left:-16vw;
+
 }
 #we-zan span{
 	font-weight: 500;
 }
 #slogan{
-	margin-top48vh;
+	position: absolute;
+	font-size: 25px;
+	font-weight: 200;
+	font-family:'Gill Sans',  sans-serif;
+	color:#60d4d8;
+	padding-top:12vh;
 	margin-left-19vw ;
 	text-align: center;
 }
@@ -300,7 +314,7 @@ cursor:pointer;
 	
 	
 	height:30vh;
-	width:50vw;
+	width:60vw;
 	
 }
 
@@ -321,29 +335,25 @@ video{
 	min-height:100vh ;
 	margin-left -2rem;
 	opacity:.2;*/
-	displayblock;
+	
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	width:99vw;
-	height: 50rem;
-	overflowhidden;
+	height: 100vh;
+	
 	z-index:-1;
 	opacity: .05;
 	filter:saturate(100%);
-	transform :translateY(-215rem);
-	transformtranslateX(-180rem);
-	margin-top -80rem;
-	align-self flex-start ;
-	margin-right -40px;
-	scale-10;
+	transform :translateY(-250rem);
+	
 	object-fit:fill;
 	/*min-width: 100%;
     min-height: 100%;
     position: absolute;
     left: 50%;
     top: 50%;*/
-	transform: translateY(-250rem);
+	
 	
 }
 
@@ -409,10 +419,10 @@ video{
 	background-color:#222327;
 	width: 99vw;
 	display:flex;
-	align-items center;
+	
 	justify-content: center;
 	font-size:30px;
-	margin-top -.5px;
+	
 	font-family: sans-serif;
 	font-weight: bolder;
 	position: relative;
@@ -423,7 +433,7 @@ video{
 	font-size: 25px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
-	margin-top 5em;
+	
 	color:#fff;
 
 }
@@ -432,7 +442,7 @@ video{
 	height:11rem;
 	width: 99vw;
 	background-color: #222327;
-	justify-content center;
+
 	display: grid;
 	grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
 	grid-gap:.6rem;
@@ -444,13 +454,12 @@ video{
 }
 .services-section-continue .card{
 	position: relative;
-	align-self flex-end;
+	
 	overflow: hidden;
 	height:22rem;
 	width:18rem;
 	background-color: #ffffff;
-	box-shadow inset 0 0 2000px rgba(255, 255, 255, .5);
-    filter blur(10px);
+	
 	margin-top: -12rem;
 	margin-bottom: 11rem;
 	box-shadow:20px -5px 30px rgb(0, 0, 0)
@@ -506,8 +515,7 @@ video{
 	margin-left: -2rem;
 	margin-top: -.5rem;
 	text-align: center;
-	display flex;
-	flex-direction column;
+	
 	
 
 }
@@ -526,31 +534,27 @@ font-weight: 600;
 	z-index: 3;
 }
 
-.services-section-continue .management{
-	background-color#FE5D26 ;
-}
+
 .our-work{
 	position:relative;
-	height 132rem;
+	
 	width: 80vw;
 	display:flex;
 	flex-direction:column;
 	margin-left:10vw;
 	overflow:hidden;
-	justify-contentcenter;	
+	
 	align-items: center;
 	margin-top:5rem;
 	padding-top:4.5rem;
-	background-coloraqua;
+	
 	
 }
 .our-work .title{
 	color:white;
 	font-size: 30px;
 	margin-bottom: 3rem;
-	justify-self center;
-	displayflex;
-	flex-directioncolumn;
+
 }
 .picture-class{
 	width: 100%;
@@ -558,12 +562,11 @@ font-weight: 600;
     margin-left:1rem;
 }
 .picture-class .text{
-	font-size 15px;
+	
 	width:40%;
-	margin-left 1.5rem;
+	
 	color:white;
-	display flex;
-	flex-direction column;
+	
 	font-family:sans-serif;
 	margin-top: -2rem;
 }
@@ -585,7 +588,7 @@ font-weight: 600;
  
 
 .picture1{
-	margin-left 3rem;
+	
 	width:100%;
 	display: flex;
 	flex-direction: row;
@@ -593,63 +596,43 @@ font-weight: 600;
 }
 .picture1 .text {
 	font-size: 15px;
-	width40%;
+	
 	margin-left: 3.5rem;
 	color:white;
-	display flex;
-	flex-direction column;
+	
 	font-family:sans-serif;
 	margin-top: -2rem;
 }
 .picture1 .title {
-	display flex;
-	flex-direction column;
-    margin-bottom 2rem;
+	
 	height :5%;
 	font-family:sans-serif;
 
 }
-picture1 .subtitle{
-	height1%;
-	margin-top: -2rem;
-	font-size 22px;
-	font-family:sans-serif;
-    color:rgb(241, 241, 241);
-}
-.picture1 p{
-	margin-top 3rem;
-}
+
+
 .picture2{
 	display: flex;
 	flex-direction:row-reverse;
 	margin-top: 4rem;
 	width:100%;
-	margin1rem;
+	
 }
 .picture2 .text{
 	text-align:right;
 	font-size: 20px;
-	width40%;
-	margin-left 1.5rem;
+	
 	color:white;
-	display flex;
-	flex-direction column;
+	
 	font-family:sans-serif;
 	margin-top: -2rem;
 }
-.picture2 p{
 
-}
 .picture2 .title{
 	height :5%;
 	font-family:sans-serif;
 }
-picture2 .subtitle{
-	margin-top: -2rem;
-	font-size: 22px;
-	font-family:sans-serif;
-    color:rgb(241, 241, 241);
-}
+
 .picture2 img{
 	margin-left:2rem;
 }
@@ -687,8 +670,7 @@ margin-top: 4rem;
 	width:40%;
 	margin-left: 1.5rem;
 	color:white;
-	display flex;
-	flex-direction column;
+	
 	font-family:sans-serif;
 	margin-top: -2rem;
 }
@@ -697,12 +679,7 @@ margin-top: 4rem;
 	height :5%;
 	font-family:sans-serif;
 }
-picture4 .subtitle{
-	margin-top: -2rem;
-	font-size: 22px;
-	font-family:sans-serif;
-    color:rgb(241, 241, 241);
-}
+
 .picture4 img{
 	margin-left:2rem;
 }
@@ -710,7 +687,7 @@ picture4 .subtitle{
 	position :absolute;
 	display:flex;
 	justify-content: center;
-	margin-top: 230rem;
+	margin-top: 3rem;
 	width:99vw;
 	height:45rem;
 	z-index:1px;
@@ -723,7 +700,7 @@ footer{
 	height: 30vh;
 	width:99vw;
 	margin-top: 50rem;
-	padding-bottom 5rem;
+	
 }
 footer h1{
    font-size: 30px;
@@ -833,6 +810,10 @@ animations
   
 
 
+  /*media queries*/
+
+
+
 @media only screen and (max-width: 800px) {
 	
 
@@ -912,14 +893,9 @@ header{
 		}
 		#slogan{
 			font-size: 25px;
-			position absolute;
-			margin-left -35vh;
-			margin-top60vh ;
+			
 		}
-		#main-logo{
-			padding-top 32vh;
-			margin-left 25vw;
-		}
+		
 		.social-icons ul{
 			position:absolute;
 			display:flex;
@@ -1103,32 +1079,13 @@ header{
 		margin-top: 4vh;
 
 	}
-	.social-icons{
-		margin-left -5vw;
-		margin-top 1vh;
-	}
-	.social-icons li{
-		margin-right -1vw;
-	}
+	
+	
 }
 
 
-
-
-@media only screen and (max-width: 680px){
-	.main-logo-container h1{
-		font-size 40px;
-	}
-}
-@media only screen and (max-width: 550px){
-	.main-logo-container h1{
-		font-size 35px;
-	}
-}
 @media only screen and (max-width: 480px){
-	.main-logo-container h1{
-		font-size 30px;
-	}
+	
 	#zen-svg{
 		width:25vw;
 	}
@@ -1149,13 +1106,11 @@ header{
 		margin-left: -4vw;
 		margin-top:6.5vh ;
 	}
-	header{
-        height 5rem;
-	}
+	
 	.icon{
 		width: 15px;
 		margin-left: .7rem;
-		margin-top 1rem;
+		
 	}
 	
 	.social-icons ul{
