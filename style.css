@@ -831,6 +831,8 @@ animations
 
 
 
+
+
 @media only screen and (max-width: 800px) {
 	
 
@@ -1135,8 +1137,7 @@ header{
 		display:flex;
 		flex-direction: row;
 		margin-left: -80vw;
-		margin-top: 55vh;
-		transform translateY(45vh);
+		margin-top 75vh;
 		width:50vw;
 		height: 7vh;
 		
@@ -1188,7 +1189,7 @@ header{
 		display:flex;
 		flex-direction: row;
 		margin-left: -80vw;
-		margin-top: 12rem;
+		margin-top: 15rem;
 		transform translateY(45vh);
 		width:50vw;
 		height: 7vh;
