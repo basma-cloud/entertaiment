@@ -843,6 +843,10 @@ animations
 		margin-top: 20vh;
 		height:50vh;
 	}
+	.about-section .title{
+        font-size: 40px;
+		margin:0 auto;
+	}
 	.about-section p {
 		width :80vw;
 	}
