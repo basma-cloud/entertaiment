@@ -1128,8 +1128,8 @@ header{
 		display:flex;
 		flex-direction: row;
 		margin-left: -80vw;
-		margin-top: 15vh;
-		transform: translateY(45vh);
+		margin-top: 45vh;
+		transform translateY(45vh);
 		width:50vw;
 		height: 7vh;
 		
@@ -1181,8 +1181,8 @@ header{
 		display:flex;
 		flex-direction: row;
 		margin-left: -80vw;
-		margin-top: 18rem;
-		transform: translateY(45vh);
+		margin-top: 12rem;
+		transform translateY(45vh);
 		width:50vw;
 		height: 7vh;
 		
