@@ -1070,11 +1070,14 @@ header{
 		font-size: 35px;
 	}	
 	.about-us{
-		margin-top: 3rem;
+		margin-top: 5rem;
 	}
    .about-section{
 	   padding-top: 5rem;
 
+   }
+   .about-section .title{
+	   margin-bottom: 3rem;
    }
     .header-menu ul{
 		display: none;
