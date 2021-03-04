@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  
+
 
     $("#button").on("click",function(){
         
@@ -53,7 +53,11 @@ $('#home-main').click(function(e){
 }, 700);
 })
 
+
+
+
 var about = $('.about-section');
+
 $('#about').click(function(e){
   $(".social-icons").toggleClass("hide-social-icons");
 
@@ -142,7 +146,7 @@ $('#contact-main').click(function(e){
 
 
 
-
+//scroll-animations
     
 var $animation_elements = $('.animation-element');
 var $window = $(window);
@@ -173,3 +177,9 @@ $window.on('scroll resize', check_if_in_view);
 $window.trigger('scroll');
 
 
+var aboutArrow = $('.about-section');
+$('.main-arrow').click(function(e){
+  $('html, body').animate({
+    scrollTop: $(aboutArrow).offset().top
+}, 900);
+});

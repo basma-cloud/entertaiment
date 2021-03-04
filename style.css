@@ -255,7 +255,7 @@ color:#12705c;
 cursor:pointer;
 }
 .welcome-section{
-	
+	display: flex;
 	height: 100vh;
 	width:100%;
 	margin-left :2.5vw;
@@ -368,7 +368,15 @@ video{
 	
 	
 }
-
+.main-arrow{
+	margin:0 auto;
+	margin-top: 75vh;
+	margin-left 40vw;
+	z-index:999;
+}
+.main-arrow:hover{
+cursor: pointer;
+}
 .about-section{
 	display: grid;
 	grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
@@ -823,6 +831,16 @@ animations
 
 
   /*media queries*/
+
+
+
+
+
+
+
+
+
+
 
 
 
