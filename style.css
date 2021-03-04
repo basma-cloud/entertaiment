@@ -65,7 +65,7 @@ content: '';
 display:block;
 margin: 0 auto;
 height: .05rem;
-width:7rem;
+width:7.5rem;
 margin-bottom: 3vh;
 box-shadow:0 0 10px rgba(128, 244, 248, 0.5),
 	0 0 1px #12705c
@@ -371,22 +371,24 @@ video{
 .main-arrow{
 	margin:0 auto;
 	margin-top: 75vh;
-	margin-left 40vw;
+	margin-left: 45vw;
 	z-index:999;
+
 }
 .main-arrow:hover{
 cursor: pointer;
 }
 .about-section{
+	margin-top 3rem;
 	display: grid;
-	grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
-	grid-gap:15rem;
+	grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));
+	grid-gap:7rem;
 	height: 120vh;
 	width: 90vw;
-	margin-left: 3vw;
+	
 }
 .about-us{
-	
+	margin-top: 2rem;
 	
 	background-color:#222327;
 	display: flex;
@@ -419,10 +421,41 @@ cursor: pointer;
 	color: #ffffff;
 	font-size: .97rem;;
 }
+
+.more-about{
+	margin-top: 2rem;
+	
+	background-color:#222327;
+	display: flex;
+	flex-direction:column;
+    align-items:left;
+	justify-contentcenter;
+}
+.our-mission{
+display: flex;
+margin-top:5rem;
+}
+
+.our-mission .text h1{
+	color:white;
+	font-family: sans-serif;
+	font-size:25px;
+	margin-left: 1rem;
+}
+.our-mission .text p{
+	color:white;
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight: 300;
+	margin-left: 1rem;
+	color: #e6e6e6;
+	line-height: 24px;
+}
+
 .circle{
 	position: absolute;
-	height: 17rem;
-	width:17rem;
+	height: 13rem;
+	width:13rem;
 	background-color: rgb(95, 199, 202);
 	box-shadow:0 0 10px rgba(128, 244, 248, 0.5),
 	0 0 20px #12705c 
@@ -430,9 +463,9 @@ cursor: pointer;
 	;
 	border-radius: 50%;
 	transform:translateY(-15rem);
-	margin-top: -1.5rem;
-	margin-left :-90rem;
-	z-index:5;
+	margin-top: 16rem;
+	margin-left :-60rem;
+	z-index:1;
 }
 .services-section {
 	height:10em;
