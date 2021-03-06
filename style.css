@@ -427,9 +427,12 @@ cursor: pointer;
 	margin-left 5vw;
 	margin-top: 95vh;
 	display: grid;
+	
 	grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
 	column-gap: 10rem;
-    align-items:left;
+	justify-items: center;
+	justify-content :space-around;
+    align-itemsleft;
 
 }
 
@@ -452,15 +455,25 @@ cursor: pointer;
 	text-align center;
 }
 .more-about .logo{
+  position: relative;
+  left:3vw;
   display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
+  justify-content: left;
+  margin-bottom: 1rem;
 }
 .more-about h1{
-	text-align: center;
+	position: relative;
+	left:2vw;
+	
+	
 }
 .more-about .text p{
 	margin-left:3vw ;
+}
+.our-mission.our-values.our-vision{
+	display: flex;
+	flex-direction: column;
+	align-items:left;
 }
 .our-mission {
 	margin-top:5rem;
@@ -493,7 +506,7 @@ cursor: pointer;
 	background-color:#222327;
 	width: 99vw;
 	display:flex;
-	margin-top: 6rem;
+	margin-top: 10rem;
 	justify-content: center;
 	font-size:30px;	
 	font-family: sans-serif;
@@ -515,7 +528,7 @@ cursor: pointer;
 	height:11rem;
 	width: 96vw;
 	background-color: #222327;
-    margin-top: 5rem;
+    margin-top: 1rem;
 	display: grid;
 	grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
 	grid-gap:.6rem;
@@ -1196,7 +1209,6 @@ header{
 		flex-direction: row;
 		margin-left: -80vw;
 		margin-top: 16.5rem;
-		transform translateY(45vh);
 		width:50vw;
 		height: 7vh;
 		
