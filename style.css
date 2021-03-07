@@ -346,7 +346,7 @@ video{
 	z-index:-1;
 	opacity: .05;
 	filter:saturate(100%);
-	transform :translateY(-197rem);
+	transform :translateY(-199rem);
 	
 	object-fit:fill;
 	/*min-width: 100%;
@@ -961,7 +961,7 @@ header{
 		.main-arrow{
 			margin:0 auto;
 			margin-top: 70vh;
-			margin-left :37.5vw;
+			margin-left :40vw;
 			z-index:999;
 		
 		}
