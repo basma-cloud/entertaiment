@@ -969,7 +969,7 @@ header{
 		}
 		.main-arrow{
 			margin:0 auto;
-			margin-top: 65vh;
+			margin-top: 70vh;
 			margin-left :40vw;
 			z-index:999;
 		
@@ -1081,7 +1081,7 @@ header{
 }
 @media only screen and (max-width: 420px){
 	.main-logo-container{
-		margin-top: 5vh;
+		margin-top: 10vh;
 	}
 	.text1{
 		transform:translateY(-5vh);
