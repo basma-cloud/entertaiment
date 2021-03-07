@@ -495,7 +495,7 @@ cursor: pointer;
 	
 	width: 98vw;
 	display:flex;
-	margin-top: 1rem;
+	margin-top: 7rem;
 	margin-bottom: 2rem;
 	justify-content: center;
 	font-size:30px;	
@@ -506,6 +506,7 @@ cursor: pointer;
 }
 .services-section .title{
 	position absolute;
+	margin-bottom: 3rem;
 	font-size: 45px;
 	width:90vw;
 	font-family:  sans-serif;
