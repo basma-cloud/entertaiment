@@ -505,9 +505,9 @@ cursor: pointer;
 
 }
 .services-section .title{
-	position absolute;
+	
 	margin-bottom: 3rem;
-	font-size: 45px;
+	font-size: 35px;
 	width:90vw;
 	font-family:  sans-serif;
 	text-align: center;	
@@ -627,7 +627,7 @@ font-weight: 600;
 }
 .our-work .title{
 	color:white;
-	font-size: 50px;
+	font-size: 35px;
 	font-family: sans-serif;
 	margin-bottom: 6rem;
 
