@@ -860,8 +860,7 @@ animations
 		height:120vh;
 		
 		overflow:visible;
-		
-		transform translateY(-370rem);
+	
 	}
 	
   }
@@ -1010,7 +1009,7 @@ header{
 		overflow:visible;
 		
 		z-index: 5;
-		transform: translateY(-390rem);
+		transform: translateY(-380rem);
 	}
 	
 	
@@ -1175,7 +1174,7 @@ header{
 		margin-top: 16.5rem;
 		width:50vw;
 		height: 7vh;
-		
+		justify-content: center;
 		background-color: rgb(255, 255, 255);
 		
 	}
