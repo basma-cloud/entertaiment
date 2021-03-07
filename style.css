@@ -845,7 +845,7 @@ animations
 		font-size: 40px;
 	}
 	.main-logo-container{
-		margin-top: 20vh;
+		margin-top: 10vh;
 		height:50vh;
 	}
 	.about-section .title{
@@ -969,7 +969,7 @@ header{
 		}
 		.main-arrow{
 			margin:0 auto;
-			margin-top: 75vh;
+			margin-top: 65vh;
 			margin-left :40vw;
 			z-index:999;
 		
