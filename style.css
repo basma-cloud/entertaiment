@@ -198,7 +198,7 @@ box-shadow:0 0 10px rgba(128, 244, 248, 0.5),
 	border-right-color: #e9b8b9;
 	box-shadow: 0.4em 0 0.6em 0.1em rgba(205,40,44,0.75);
 }
- #button .bar:nth-of-type(3) {
+#button .bar:nth-of-type(3) {
 	border-right-color: #ddf1da;
 	box-shadow: 0.4em 0 0.6em 0.1em rgba(83,228,68,0.65);
 }
@@ -212,21 +212,12 @@ box-shadow:0 0 10px rgba(128, 244, 248, 0.5),
 	display: none;
 	width:100%;
     margin-top :8vh;
-	margin-left 1cm;
 	z-index:900;
-    margin-right-50px;
 }
-#main-menu{
-	
-	
-	background: linear-gradient(90deg, rgb(50, 65, 151,.9),rgb(80, 178, 181,.9) 100%);
-	
-   
-  
-	
+#main-menu{	
+	background: linear-gradient(90deg, rgb(50, 65, 151,.9),rgb(80, 178, 181,.9) 100%);	    	
     height:80vh;
 	width: 95vw;
-	
     border-radius:1%; 
     display:flex; 
     justify-content:center; 
@@ -256,13 +247,12 @@ cursor:pointer;
 }
 .welcome-section{
 	display: flex;
-	height: 90vh;
+	min-height: 90vh;
 	width:100%;
 	margin-left :2.5vw;
 
 }
-.main-logo-container{
-	background-color#1a40d6;
+.main-logo-container{	
 	position :absolute;
 	display:grid;
 	grid-template-columns:repeat(auto-fit,minmax(20rem,1fr));
@@ -278,7 +268,6 @@ cursor:pointer;
 	
 }
 .zan-logo1{
-	background-color#c4158f;
 	width:90%;
 	height: 100%;
 	display: grid;
@@ -357,7 +346,7 @@ video{
 	z-index:-1;
 	opacity: .05;
 	filter:saturate(100%);
-	transform :translateY(-204rem);
+	transform :translateY(-197rem);
 	
 	object-fit:fill;
 	/*min-width: 100%;
@@ -371,7 +360,7 @@ video{
 .main-arrow{
 	margin:0 auto;
 	margin-top: 75vh;
-	margin-left: 45vw;
+	margin-left :45vw;
 	z-index:999;
 
 }
@@ -380,8 +369,9 @@ cursor: pointer;
 }
 .about-section{
 	position: relative;	
-	height:160vh;
+	min-height:160vh;
 	width: 90vw;
+	overflow: hidden;
 	
 }
 .about-us{
@@ -502,11 +492,12 @@ cursor: pointer;
 	z-index:1;
 }
 .services-section {
-	height:10em;
-	background-color:#222327;
-	width: 99vw;
+	height10em;
+	background-color:#e4096f;
+	width: 98vw;
 	display:flex;
-	margin-top: 10rem;
+	margin-top: 5rem;
+	margin-bottom: 2rem;
 	justify-content: center;
 	font-size:30px;	
 	font-family: sans-serif;
@@ -515,9 +506,9 @@ cursor: pointer;
 
 }
 .services-section .title{
-	position: absolute;
+	position absolute;
 	font-size: 45px;
-	
+	width:90vw;
 	font-family:  sans-serif;
 	text-align: center;	
 	color:#fff;
@@ -525,9 +516,9 @@ cursor: pointer;
 }
 .services-section-continue{
 	position: relative;
-	height:11rem;
+	height11rem;
 	width: 96vw;
-	background-color: #222327;
+	background-color: #1c3cbb;
     margin-top: 1rem;
 	display: grid;
 	grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
@@ -546,8 +537,8 @@ cursor: pointer;
 	width:18rem;
 	background-color: #ffffff;
 	
-	margin-top: -12rem;
-	margin-bottom: 11rem;
+	
+	margin-bottom 11rem;
 	box-shadow:20px -5px 30px rgb(0, 0, 0)
 	,
 	0 0 10px rgba(114, 114, 114, 0.9)
@@ -862,10 +853,10 @@ animations
 		margin:0 auto;
 	}
 	.about-section p {
-		width :80vw;
+		width 80vw;
 	}
 	.our-work{
-		margin-top:24rem ;
+		margin-top24rem ;
 	}
 
 	.text{
@@ -883,10 +874,15 @@ animations
 	
   }
   @media only screen and (max-width: 1100px){
+	  .circle{
+		  display:none;
+	  }
 header{
 	height:13vh;
 }
-
+.about-section{
+	min-height: 260vh;
+}
   }
   @media only screen and (max-width: 1000px){
 	footer{
@@ -981,12 +977,7 @@ header{
 	.about-section p {
 		width :80vw;
 	}
-	.about-section{
-		height75vh;
-	}
-	.our-work{
-		margin-top:45rem ;
-	}
+	
 	.picture1{
 		flex-direction:column;
 		
@@ -1011,44 +1002,7 @@ header{
 	.picture-class p{
 		margin-top:-1.4rem ;
 	}
-	.picture2{
-		flex-direction:column;
-	}
-	.picture2 .text{
-		text-align: left;
-		margin-left:0;
-		width:85vw;
-		margin-top: 1rem;
-	}
-	.picture2 img{
-		width: 100%;
-		margin-left:0rem;
-	}
-	.picture3{
-		flex-direction: column;
-	}
-	.picture3 img{
-		width:100%;
-
-	}
-	.picture3 .text{
-		width:85vw;
-		margin-top: 1rem;
-		margin-left: 0rem;
-	}
-	.picture4{
-		flex-direction:column;
-	}
-	.picture4 .text{
-		text-align: left;
-		margin-left:0;
-		width:85vw;
-		margin-top: 1rem;
-	}
-	.picture4 img{
-		width: 100%;
-		margin-left:0rem;
-	}
+	
 	.picture-class .text{
 		margin-top: -1rem;;
 	}
@@ -1076,7 +1030,7 @@ header{
 @media only screen and (max-width: 420px){
 	.contact-section{
 		
-		height:54rem;
+		min-height:200vh;
 	}
 	.contract__formLeft h1{
 		font-size: 35px;
@@ -1190,7 +1144,13 @@ header{
        margin-top: -11vh;
 	   margin-left: 40vw;
 	}
-
+	.about-section{
+		min-height:270vh;
+	}
+.services-section{
+	position: relative;
+	
+}
 	footer .text{
 		margin-top: -10rem;
 		text-align: center;
