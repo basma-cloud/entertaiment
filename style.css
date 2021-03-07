@@ -852,12 +852,7 @@ animations
         font-size: 40px;
 		margin:0 auto;
 	}
-	.about-section p {
-		width 80vw;
-	}
-	.our-work{
-		margin-top24rem ;
-	}
+	
 
 	.text{
 		width:100%;
@@ -970,7 +965,7 @@ header{
 		.main-arrow{
 			margin:0 auto;
 			margin-top: 70vh;
-			margin-left :40vw;
+			margin-left :37.5vw;
 			z-index:999;
 		
 		}
@@ -1047,7 +1042,7 @@ header{
 		margin-bottom: 7rem;
 	}
    .about-section{
-	   padding-top: 5rem;
+	   padding-top: 1rem;
 
 
    }
