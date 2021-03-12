@@ -183,3 +183,18 @@ $('.main-arrow').click(function(e){
     scrollTop: $(aboutArrow).offset().top
 }, 1000);
 });
+
+function activateLink(activeSection){
+  const links=document.querySelectorAll('a');
+  let linkName=activeSection.getAttribute('data-nav');
+  links.forEach((link)=>{
+    if(link.textContent == linkName){
+        /**
+         * to add or remove classes from an element we use the method .classList.add/remove 
+         */
+     link.classList.add('active-link');
+    }else{
+     link.classList.remove('active-link');
+    }
+    });
+  }
