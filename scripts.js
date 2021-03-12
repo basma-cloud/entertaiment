@@ -176,10 +176,10 @@ function check_if_in_view() {
 $window.on('scroll resize', check_if_in_view);
 $window.trigger('scroll');
 
-
-var aboutArrow = $('.about-section');
+//scrolls to mission and vision when clicking the arrow 
+var aboutArrow = $('.more-about');
 $('.main-arrow').click(function(e){
   $('html, body').animate({
     scrollTop: $(aboutArrow).offset().top
-}, 900);
+}, 1000);
 });

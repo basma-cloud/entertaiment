@@ -10,9 +10,7 @@ body{
 header{
 	
 	position:fixed;
-	display: flex;
-	
-	
+	display: flex;	
 	height: 11vh;
 	width:99vw;
 	z-index: 999;
@@ -378,7 +376,6 @@ cursor: pointer;
 	position: absolute;
 	margin-top :11rem;
 	margin-left: 5vw;
-	height 50vh;
 	width: 90vw;
 	display: flex;
 	flex-direction:column;
@@ -413,16 +410,18 @@ cursor: pointer;
 
 .more-about{
 	position: absolute;
-	width:93vw;
-	margin-left 5vw;
-	margin-top: 95vh;
+	padding-top: 20vh;
+	padding-bottom:20vh ;
+	width:90vw;
+	margin-top: 75vh;
 	display: grid;
 	
 	grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
 	column-gap: 10rem;
+	align-items: center;
 	justify-items: center;
 	justify-content :space-around;
-    align-itemsleft;
+    
 
 }
 
@@ -442,7 +441,7 @@ cursor: pointer;
 	margin-left: 1rem;
 	color: #e6e6e6;
 	line-height: 24px;
-	text-align center;
+	
 }
 .more-about .logo{
   position: relative;
@@ -461,9 +460,11 @@ cursor: pointer;
 	margin-left:3vw ;
 }
 .our-mission.our-values.our-vision{
+	position: absolute;
 	display: flex;
 	flex-direction: column;
 	align-items:left;
+	top 200vh;
 }
 .our-mission {
 	margin-top:5rem;
@@ -975,6 +976,16 @@ header{
 	.about-section p {
 		width :80vw;
 	}
+	.more-about{
+		padding-top: 3vh;
+		margin-top: 90vh;
+	}
+	.more-about .text p{
+		margin-left: 1.5rem;
+	}
+	.our-mission{
+		margin-bottom: 8vh;
+	}
 	
 	.picture1{
 		flex-direction:column;
@@ -982,10 +993,14 @@ header{
 	}
 	.picture1 img{
 		
-		width:100%;
+		width:70%;
+		height: 70%;
+		margin-left: -12vw;
+		align-self: center;
+		justify-self: center;
 	}
 	.picture1 .text{
-		width:85vw;
+		width:100%;
 		margin-top: 1rem;
 		margin-left :0rem;
 	}
@@ -996,6 +1011,7 @@ header{
 	
 	.picture-class p{
 		margin-top:-1.4rem ;
+		margin-bottom: 6vh;
 	}
 	
 	.picture-class .text{
