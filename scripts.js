@@ -177,24 +177,22 @@ $window.on('scroll resize', check_if_in_view);
 $window.trigger('scroll');
 
 //scrolls to mission and vision when clicking the arrow 
-var aboutArrow = $('.more-about');
+var aboutMain =$('.about-section');
 $('.main-arrow').click(function(e){
   $('html, body').animate({
-    scrollTop: $(aboutArrow).offset().top
-}, 1000);
+    scrollTop: $(aboutMain).offset().top
+}, 900);
 });
 
-function activateLink(activeSection){
-  const links=document.querySelectorAll('a');
-  let linkName=activeSection.getAttribute('data-nav');
-  links.forEach((link)=>{
-    if(link.textContent == linkName){
-        /**
-         * to add or remove classes from an element we use the method .classList.add/remove 
-         */
-     link.classList.add('active-link');
-    }else{
-     link.classList.remove('active-link');
-    }
-    });
-  }
+v/*ar selector = '.header-menu li ';
+
+$(selector).on('click', function(){
+    $(selector).removeClass('active-link');
+    $(this).addClass('active-link');
+});
+
+$(selector).on('click', function(){
+  $(selector).removeClass('all');
+  $(this).addClass('all');
+});*/
+
